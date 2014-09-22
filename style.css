@@ -1,0 +1,26 @@
+body {
+background-color: black;
+color: yellow;
+font-family: 	"Verdana";
+font-size:  12px;
+
+}
+hr    {color: yellow;
+}
+h1 {
+color: 	yellow;
+font-family: 	"Verdana";
+font-size:	32px;
+text-align: center;
+}
+h2 {
+color: 	yellow;
+font-family: 	"Verdana";
+font-size:	32px;
+text-align: center;
+}
+#bierbanner { 
+background: url("beer2.jpg") repeat-x;
+height: 	180px
+
+}
