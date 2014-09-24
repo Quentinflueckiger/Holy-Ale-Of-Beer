@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)http://superrb.com/blog/2013/06/14/bubbles-bubbles-everywhere -->
+<html lang="en" class="js no-flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths wf-omnespro-n4-active wf-omnespro-i4-active wf-omnespro-i5-active wf-omnespro-i7-active wf-omnespro-n5-active wf-omnespro-n7-active wf-active"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+
+<meta name="title" content="Bubbles, bubbles everywhere... | Web Design &amp; Branding Agency | Superrb Studio">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="shortcut icon" href="http://superrb.com/favicon.ico">
+<link rel="apple-touch-icon" href="http://superrb.com/xapple-touch-icon.png.pagespeed.ic.8KIrxVWiYD.png">
+<title>Bubbles, bubbles everywhere... | Web Design &amp; Branding Agency | Superrb Studio</title>
+<link rel="stylesheet" type="text/css" media="screen" data-asset-group="global" href="./bieranimation4_files/7ac5bbdfe6e55d3c9b741413e32198db.css">
+<link rel="stylesheet" type="text/css" href="./bieranimation4_files/A.ss-pika.css+ss-social.css,Mcc.d_Gsln8nk-.css.pagespeed.cf.B8cj9i5JrD.css">
+<meta property="og:title" content="Bubbles, bubbles everywhere...">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://superrb.com/blog/2013/06/14/bubbles-bubbles-everywhere">
+<meta property="og:image" content="http://superrb.com/uploads/media_items/beer-bubbles.400.258.s.jpg">
+<meta property="og:site_name" content="Bubbles, bubbles everywhere... | Web Design &amp; Branding Agency | Superrb Studio">
+<meta property="og:description" content=" We were challenged recently to create a loading screen that looked like a glass of sparkling wine. The client originally had the idea of…">
+<link rel="shortcut icon" href="http://superrb.com/favicon.ico">
+<div class="fit-vids-style">­<style>               .fluid-width-video-wrapper {                 width: 100%;                              position: relative;                       padding: 0;                            }                                                                                   .fluid-width-video-wrapper iframe,        .fluid-width-video-wrapper object,        .fluid-width-video-wrapper embed {           position: absolute;                       top: 0;                                   left: 0;                                  width: 100%;                              height: 100%;                          }                                       </style></div><script type="text/javascript" async="" src="./bieranimation4_files/dc.js"></script><script data-cfasync="false" src="./bieranimation4_files/wjx3cdi.js"></script>
+<style type="text/css">.tk-omnes-pro{font-family:"omnes-pro",sans-serif;}</style><link rel="stylesheet" href="http://use.typekit.net/c/dd104e/omnes-pro:i4:i5:i7:n4:n5:n7.X38:J:2,X3B:J:2,X3G:J:2,X37:J:2,X39:J:2,X3F:J:2/d?3bb2a6e53c9684ffdc9a98f61d5b2a62bd59f5a383719fc7e105e6071ff8c144bf42a8c2d74a16772991338352e82e1ef4e1c3ff6db3eb5f83d1ec1226538baf3a843fc35c6ad59863fb2689875a0a9bf8af48d96a3ad41810f0dfa64f13d8780e6f99a60ba154b9370b4978cc01f739d8589e5a164e61172d75aa67ea1217171e8ea77a321ba4d7428aa1f78a7b44cbcabc43c7853156ca2fd82f085caad8735b051f24f387a213f6ebe5e24a80ca01e010b5811f67d9e37db795e0aefe2bbd1d715ec39dbeab11ca08326b0093a3"><script data-cfasync="false">try{Typekit.load();}catch(e){}</script>
+<!--[if lt IE 9]>
+  	<link rel="stylesheet" type="text/css" href="/css/ie.css" />
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	<link rel="stylesheet" type="text/css" href="/apostrophePlugin/css/a-ie.css" />		
+  <![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Superrb, Latest News (RSS 2.0)" href="http://superrb.com/blog?feed=rss">
+<link rel="alternate" type="application/atom+xml" title="Superrb, Latest News (Atom 0.3)" href="http://superrb.com/blog?feed=atom">
+<script src="./bieranimation4_files/28795.js"></script>
+<noscript>&lt;img src="http://mialbj6.com/images/track/28795.png?trk_user=28795&amp;trk_tit=jsdisabled&amp;trk_ref=jsdisabled&amp;trk_loc=jsdisabled" height="0px" width="0px" style="display:none;"/&gt;</noscript>
+<link rel="dns-prefetch" href="http://ec01c392919812c4f818-79afe539d963810002081e6e2a51e67e.ssl.cf2.rackcdn.com/"><script type="text/javascript" async="" src="./bieranimation4_files/embed.js"></script><script async="" src="./bieranimation4_files/count.js"></script><script async="" src="./bieranimation4_files/count-data.js"></script></head>
+<body class="a-blog aBlog show a-page-id-8 a-page-depth-1 a-engine logged-out">
+<header class="main-head clearfix" style="position: fixed; top: -115px; border-bottom-width: 2px; border-bottom-color: rgb(219, 218, 218); border-bottom-style: solid; height: 148px;">
+<aside class="letter-logo" style="display: block; top: 102px;">
+<h1><a href="http://superrb.com/" title="Superrb Studio">Superrb Studio</a></h1>
+</aside>
+<div class="main-head-inner">
+<a title="Superrb" href="http://superrb.com/"></a>
+<object data="http://superrb.com/images/superrb.svg" type="image/svg+xml" width="85px" class="main-logo"></object>
+</div>
+<nav class="main-nav" style="margin-left: 110px;">
+<ul class="a-nav a-nav-main tabs nav-depth-0 clearfix " id="a-nav-main-0">
+<li class="a-nav-item"><a class="a-nav-link homepage" href="http://superrb.com/"><span class="homepage"><span>Work</span></span></a></li>
+<li class="a-nav-item a-nav-item-0 first" id="a-nav-item-main-9">
+<a class="a-nav-link a-nav-link-0" href="http://superrb.com/about">About</a>
+</li>
+<li class="a-nav-item a-nav-item-0 second" id="a-nav-item-main-11">
+<a class="a-nav-link a-nav-link-0" href="http://superrb.com/services">Services</a>
+</li>
+<li class="a-nav-item a-nav-item-0 a-current-page a-ancestor a-ancestor-0" id="a-nav-item-main-8">
+<a class="a-nav-link a-nav-link-0" href="http://superrb.com/blog">Blog</a>
+</li>
+<li class="a-nav-item a-nav-item-0 next-last" id="a-nav-item-main-196">
+<a class="a-nav-link a-nav-link-0" href="http://superrb.com/careers">Careers</a>
+</li>
+<li class="a-nav-item a-nav-item-0 last" id="a-nav-item-main-2">
+<a class="a-nav-link a-nav-link-0" href="http://superrb.com/contact">Contact</a>
+</li>
+</ul>
+</nav>
+</header><div class="header-block" style="height: 167px;"></div>
+<aside class="blog-filters">
+<h1 class="blog-filters-title"><span class="ss-pika ss-delete"></span>Categories and Tags</h1>
+<section class="blog-filters-results">
+<section class="blog-post-categories">
+</section>
+<h4>Categories</h4>
+<a href="http://superrb.com/blog/category/design" class="a-link">Design</a> <a href="http://superrb.com/blog/category/e-commerce" class="a-link">E-Commerce</a> <a href="http://superrb.com/blog/category/illustration" class="a-link">Illustration</a> <a href="http://superrb.com/blog/category/marketing" class="a-link">Marketing</a> <a href="http://superrb.com/blog/category/programming" class="a-link">Programming</a> <a href="http://superrb.com/blog/category/social" class="a-link">Social</a> <a href="http://superrb.com/blog/category/company" class="a-link">Superrb</a> <a href="http://superrb.com/blog/category/technical" class="a-link">Technical</a> <a href="http://superrb.com/blog/category/web-development" class="a-link">Web Development</a>
+<section class="blog-post-tags">
+<h4 class="a-tag-sidebar-title popular">Tags</h4>
+<a href="http://superrb.com/blog?tag=superrb" class="a-link a-tag icon no-icon icon-right"><span class="icon"></span>superrb</a> <a href="http://superrb.com/blog?tag=web+design" class="a-link a-tag icon no-icon icon-right"><span class="icon"></span>web design</a> <a href="http://superrb.com/blog?tag=design" class="a-link a-tag icon no-icon icon-right"><span class="icon"></span>design</a> <a href="http://superrb.com/blog?tag=social" class="a-link a-tag icon no-icon icon-right"><span class="icon"></span>social</a> <a href="http://superrb.com/blog?tag=marketing" class="a-link a-tag icon no-icon icon-right"><span class="icon"></span>marketing</a> <a href="http://superrb.com/blog?tag=brand+identity" class="a-link a-tag icon no-icon icon-right"><span class="icon"></span>brand identity</a> <a href="http://superrb.com/blog?tag=ubuntu" class="a-link a-tag icon no-icon icon-right"><span class="icon"></span>ubuntu</a> <a href="http://superrb.com/blog?tag=google" class="a-link a-tag icon no-icon icon-right"><span class="icon"></span>google</a> <a href="http://superrb.com/blog?tag=ecommerce" class="a-link a-tag icon no-icon icon-right"><span class="icon"></span>ecommerce</a> <a href="http://superrb.com/blog?tag=hosting" class="a-link a-tag icon no-icon icon-right"><span class="icon"></span>hosting</a> </section>
+</section>
+</aside>
+<section class="main-content clearfix">
+<div class="content clearfix">
+<article class="blog-post singleColumnTemplate category-technical category-programming clearfix">
+<h1 class="blog-title">
+Bubbles, bubbles everywhere...	</h1>
+<h2 class="blog-date">
+14th June, 2013 -
+Posted By: <a class="a-link" href="http://superrb.com/blog/author/alexborton">Alex Borton</a>
+<a class="disqus-comment-count" data-disqus-identifier="87" href="http://superrb.com/blog/2013/06/14/bubbles-bubbles-everywhere#disqus_thread">1 Comment</a>
+</h2>
+<div id="a-area-183-blog-body" class="a-area a-normal a-area-blog-body     clearfix">
+<div id="a-slots-183-blog-body" class="a-slots clearfix">
+<div class="a-slot a-normal normal 
+          aSlideshow           clearfix" data-pageid="183" data-name="blog-body" data-permid="6" data-width="1050" id="a-slot-183-blog-body-6">
+<div class="a-slot-content clearfix" id="a-slot-content-183-blog-body-6">
+<ul id="a-slideshow-183-blog-body-6" class="a-slideshow clearfix single-image transition-normal">
+<li class="a-slideshow-item" id="a-slideshow-item-183-blog-body-6-0" title="" style="display: list-item;">
+<ul class="a-media-container" data-slug="beer-bubbles">
+<li class="a-slideshow-image loading-image" style="display:block"><img alt="beer bubbles" width="1050" height="676" src="./bieranimation4_files/1050x676xbeer-bubbles.1050.676.s.jpg.pagespeed.ic.a9ivGYLYWT.webp" style="opacity: 1;"></li>
+</ul>	</li>
+</ul>
+</div>
+</div>
+<div class="a-slot a-normal  
+          aRichText           clearfix" data-pageid="183" data-name="blog-body" data-permid="1" data-width="1050" id="a-slot-183-blog-body-1">
+<div class="a-slot-content clearfix" id="a-slot-content-183-blog-body-1">
+<p>
+We were challenged recently to create a loading screen that looked like a glass of sparkling wine. The client originally had the idea of using a video laid across the background, but due to it needing flash and slow load times etc, we suggested to animate the bubbles using CSS 3.</p>
+<p>
+Not knowing initially whether or not we would be able to create a realistic effect using just CSS animation, we did a bit of research and when we felt sufficiently confident the idea had legs, we were able to persuade the client to give it a go.</p>
+<p>
+Using the original video and taking some of our own photos for inspiration, we were able to produce this animation.&nbsp;</p>
+<p>
+**Can't see the animation below? Check it out on desktop or tablet or your browser does not support CSS animations! Maybe you should think about upgrading to Chrome, Firefox or IE10!</p>
+</div>
+</div>
+<div class="a-slot a-normal  
+          aRawHTML           clearfix" data-pageid="183" data-name="blog-body" data-permid="2" data-width="1050" id="a-slot-183-blog-body-2">
+<div class="a-slot-content clearfix" id="a-slot-content-183-blog-body-2">
+<style>#animation-overlay,#animation-overlay-holder{position:relative;z-index:700;top:0;left:0;width:100%;height:600px;overflow:hidden}.bubble{display:none}#overlay{position:absolute;width:112px;height:138px;left:50%;top:50%;margin:-67px 0 0 -56px;background:transparent url(http://superrb.com/uploads/media_items/xsuperrb-pabst.original.png.pagespeed.ic.XJb8UWvf99.png) no-repeat center center;background-size:100%;z-index:750}@media screen and (min-width:730px){#animation-overlay,#animation-overlay-holder,.touch #animation-overlay{background:-webkit-linear-gradient(left,#b68d48,#efd5a3,#fffbee,#efd5a3,#b68d48);background:-moz-linear-gradient(left,#b68d48,#efd5a3,#fffbee,#efd5a3,#b68d48);background:-ms-linear-gradient(left,#b68d48,#efd5a3,#fffbee,#efd5a3,#b68d48);background:-o-linear-gradient(left,#b68d48,#efd5a3,#fffbee,#efd5a3,#b68d48)}.bubble{display:block;width:30px;height:30px;background:transparent url(http://superrb.com/uploads/media_items/xbubble.original.png.pagespeed.ic.EvrVi3XaCs.png) center center no-repeat;background-size:100%;position:absolute;z-index:1001;top:-10%}.bubble.blur{background-image:url(http://superrb.com/uploads/media_items/xbubble-blur.original.png.pagespeed.ic.9RkFq7qBR0.png);z-index:1002;top:-10%}.bubble.blur-2{background-image:url(http://superrb.com/uploads/media_items/xbubble-blur-2.original.png.pagespeed.ic.eUdD73TmoU.png);z-index:1003;top:-10%}.touch .bubble.touch{display:none}.x-small{width:10px;height:10px;-webkit-animation: movebubbles-pos-1 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-1 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate;-o-animation: movebubbles-pos-1 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate;animation: movebubbles-pos-1 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate}.x-small.start-pos-2{-webkit-animation: movebubbles-pos-2 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-2 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate;-o-animation: movebubbles-pos-2 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate;animation: movebubbles-pos-2 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate}.x-small.start-pos-3{-webkit-animation: movebubbles-pos-3 22s ease-in infinite, sideWays-type-3 4s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-3 22s ease-in infinite, sideWays-type-3 4s ease-in-out infinite alternate;-o-animation: movebubbles-pos-3 22s ease-in infinite, sideWays-type-3 4s ease-in-out infinite alternate;animation: movebubbles-pos-3 22s ease-in infinite, sideWays-type-3 4s ease-in-out infinite alternate}.x-small.start-pos-4{-webkit-animation: movebubbles-pos-4 22s ease-in infinite, sideWays-type-4 4s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-4 22s ease-in infinite, sideWays-type-4 4s ease-in-out infinite alternate;-o-animation: movebubbles-pos-4 22s ease-in infinite, sideWays-type-4 4s ease-in-out infinite alternate;animation: movebubbles-pos-4 22s ease-in infinite, sideWays-type-4 4s ease-in-out infinite alternate}.x-small.start-pos-5{-webkit-animation: movebubbles-pos-5 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-5 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate;-o-animation: movebubbles-pos-5 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate;animation: movebubbles-pos-5 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate}.x-small.start-pos-6{-webkit-animation: movebubbles-pos-6 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-6 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate;-o-animation: movebubbles-pos-6 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate;animation: movebubbles-pos-6 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate}.x-small.start-pos-7{-webkit-animation: movebubbles-pos-7 22s ease-in infinite, sideWays-type-3 4s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-7 22s ease-in infinite, sideWays-type-3 4s ease-in-out infinite alternate;-o-animation: movebubbles-pos-7 22s ease-in infinite, sideWays-type-3 4s ease-in-out infinite alternate;animation: movebubbles-pos-7 22s ease-in infinite, sideWays-type-3 4s ease-in-out infinite alternate}.x-small.start-pos-8{-webkit-animation: movebubbles-pos-8 22s ease-in infinite, sideWays-type-4 4s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-8 22s ease-in infinite, sideWays-type-4 4s ease-in-out infinite alternate;-o-animation: movebubbles-pos-8 22s ease-in infinite, sideWays-type-4 4s ease-in-out infinite alternate;animation: movebubbles-pos-8 22s ease-in infinite, sideWays-type-4 4s ease-in-out infinite alternate}.x-small.start-pos-9{-webkit-animation: movebubbles-pos-9 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-9 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate;-o-animation: movebubbles-pos-9 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate;animation: movebubbles-pos-9 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate}.x-small.start-pos-10{-webkit-animation: movebubbles-pos-10 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-10 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate;-o-animation: movebubbles-pos-10 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate;animation: movebubbles-pos-10 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate}.x-small.start-pos-11{-webkit-animation: movebubbles-pos-11 22s ease-in infinite, sideWays-type-3 4s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-11 22s ease-in infinite, sideWays-type-3 4s ease-in-out infinite alternate;-o-animation: movebubbles-pos-11 22s ease-in infinite, sideWays-type-3 4s ease-in-out infinite alternate;animation: 
+  }.x-small.start-pos-12{-webkit-animation: movebubbles-pos-12 22s ease-in infinite, sideWays-type-4 4s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-12 22s ease-in infinite, sideWays-type-4 4s ease-in-out infinite alternate;-o-animation: movebubbles-pos-12 22s ease-in infinite, sideWays-type-4 4s ease-in-out infinite alternate;animation: movebubbles-pos-12 22s ease-in infinite, sideWays-type-4 4s ease-in-out infinite alternate}.x-small.start-pos-13{-webkit-animation: movebubbles-pos-13 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-13 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate;-o-animation: movebubbles-pos-13 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate;animation: movebubbles-pos-13 22s ease-in infinite, sideWays-type-1 4s ease-in-out infinite alternate}.x-small.start-pos-14{-webkit-animation: movebubbles-pos-14 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-14 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate;-o-animation: movebubbles-pos-14 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate;animation: movebubbles-pos-14 22s ease-in infinite, sideWays-type-2 4s ease-in-out infinite alternate}.small{width:13px;height:13px;-webkit-animation: movebubbles-pos-1 15s ease-in infinite, sideWays-type-1 3s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-1 15s ease-in infinite, sideWays-type-1 3s ease-in-out infinite alternate;-o-animation: movebubbles-pos-1 15s ease-in infinite, sideWays-type-1 3s ease-in-out infinite alternate;animation: movebubbles-pos-1 15s ease-in infinite, sideWays-type-1 3s ease-in-out infinite alternate}.small.start-pos-2{-webkit-animation: movebubbles-pos-2 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-2 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate;-o-animation: movebubbles-pos-2 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate;animation: movebubbles-pos-2 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate}.small.start-pos-3{-webkit-animation: movebubbles-pos-3 15s ease-in infinite, sideWays-type-3 3s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-3 15s ease-in infinite, sideWays-type-3 3s ease-in-out infinite alternate;-o-animation: movebubbles-pos-3 15s ease-in infinite, sideWays-type-3 3s ease-in-out infinite alternate;animation: movebubbles-pos-3 15s ease-in infinite, sideWays-type-3 3s ease-in-out infinite alternate}.small.start-pos-4{-webkit-animation: movebubbles-pos-4 15s ease-in infinite, sideWays-type-4 3s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-4 15s ease-in infinite, sideWays-type-4 3s ease-in-out infinite alternate;-o-animation: movebubbles-pos-4 15s ease-in infinite, sideWays-type-4 3s ease-in-out infinite alternate;animation: movebubbles-pos-4 15s ease-in infinite, sideWays-type-4 3s ease-in-out infinite alternate}.small.start-pos-5{-webkit-animation: movebubbles-pos-5 15s ease-in infinit, sideWays-type-1 3s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-5 15s ease-in infinite, sideWays-type-1 3s ease-in-out infinite alternate;-o-animation: movebubbles-pos-5 15s ease-in infinite, sideWays-type-1 3s ease-in-out infinite alternate;animation: movebubbles-pos-5 15s ease-in infinite, sideWays-type-1 3s ease-in-out infinite alternate}.small.start-pos-6{-webkit-animation: movebubbles-pos-6 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-6 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate;-o-animation: movebubbles-pos-6 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate;animation: movebubbles-pos-6 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate}.small.start-pos-7{-webkit-animation: movebubbles-pos-7 15s ease-in infinite, sideWays-type-3 3s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-7 15s ease-in infinite, sideWays-type-3 3s ease-in-out infinite alternate;-o-animation: movebubbles-pos-7 15s ease-in infinite, sideWays-type-3 3s ease-in-out infinite alternate;animation: movebubbles-pos-7 15s ease-in infinite, sideWays-type-3 3s ease-in-out infinite alternate}.small.start-pos-8{-webkit-animation: movebubbles-pos-8 15s ease-in infinite, sideWays-type-4 3s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-8 15s ease-in infinite, sideWays-type-4 3s ease-in-out infinite alternate;-o-animation: movebubbles-pos-8 15s ease-in infinite, sideWays-type-4 3s ease-in-out infinite alternate;animation: movebubbles-pos-8 15s ease-in infinite, sideWays-type-4 3s ease-in-out infinite alternate}.small.start-pos-9{-webkit-animation: movebubbles-pos-9 15s ease-in infinite, sideWays-type-1 3s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-9 15s ease-in infinite, sideWays-type-1 3s ease-in-out infinite alternate;-o-animation: movebubbles-pos-9 15s ease-in infinite, sideWays-type-1 3s ease-in-out infinite alternate;animation: movebubbles-pos-9 15s ease-in infinite, sideWays-type-1 3s ease-in-out infinite alternate}.small.start-pos-10{-webkit-animation: movebubbles-pos-10 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-10 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate;-o-animation: movebubbles-pos-10 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate;animation: movebubbles-pos-10 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate}.small.start-pos-11{-webkit-animation: movebubbles-pos-11 15s ease-in infinite, sideWays-type-3 3s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-11 15s ease-in infinite, sideWays-type-3 3s ease-in-out infinite alternate;-o-animation: movebubbles-pos-11 15s ease-in infinite, sideWays-type-3 3s ease-in-out infinite alternate;animation: movebubbles-pos-11 15s ease-in infinite, sideWays-type-3 3s ease-in-out infinite alternate}.small.start-pos-12{-webkit-animation: movebubbles-pos-12 15s ease-in infinite, sideWays-type-4 3s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-12 15s ease-in infinite, sideWays-type-4 3s ease-in-out infinite alternate;-o-animation: movebubbles-pos-12 15s ease-in infinite, sideWays-type-4 3s ease-in-out infinite alternate;animation: movebubbles-pos-12 15s ease-in infinite, sideWays-type-4 3s ease-in-out infinite alternate}.small.start-pos-13{-webkit-animation: movebubbles-pos-13 15s ease-in infinite, sideWays-type-1 3s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-13 15s ease-in infinite, sideWays-type-1 3s ease-in-out infinite alternate;-o-animation: movebubbles-pos-13 15s ease-in infinite, sideWays-type-1 3s ease-in-out infinite alternate;animation: movebubbles-pos-13 15s ease-in infinite , sideWays-type-1 3s ease-in-out infinite alternate}.small.start-pos-14{-webkit-animation: movebubbles-pos-14 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-14 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate;-o-animation: movebubbles-pos-14 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate;animation: movebubbles-pos-14 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate}.medium{width:17px;height:17px;-webkit-animation: movebubbles-pos-1 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-1 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-1 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;animation: movebubbles-pos-1 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate}.medium.start-pos-2{-webkit-animation: movebubbles-pos-2 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-2 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-2 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;animation: movebubbles-pos-2 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate}.medium.start-pos-3{-webkit-animation: movebubbles-pos-3 11s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-3 11s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-3 11s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;animation: movebubbles-pos-3 11s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate}.medium.start-pos-4{-webkit-animation: movebubbles-pos-4 11s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-4 11s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-4 11s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;animation: movebubbles-pos-4 11s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate}.medium.start-pos-5{-webkit-animation: movebubbles-pos-5 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-5 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-5 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;animation: movebubbles-pos-5 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate}.medium.start-pos-6{-webkit-animation: movebubbles-pos-6 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-6 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-6 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;animation: movebubbles-pos-6 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate}.medium.start-pos-7{-webkit-animation: movebubbles-pos-7 11s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-7 11s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-7 11s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;animation: movebubbles-pos-7 11s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate}.medium.start-pos-8{-webkit-animation: movebubbles-pos-8 11s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-8 11s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-8 11s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;animation: movebubbles-pos-8 11s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate}.medium.start-pos-9{-webkit-animation: movebubbles-pos-9 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-9 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-9 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;animation: movebubbles-pos-9 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate}.medium.start-pos-10{-webkit-animation: movebubbles-pos-10 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-10 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-10 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;animation: movebubbles-pos-10 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate}.medium.start-pos-11{-webkit-animation: movebubbles-pos-11 11s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-11 11s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-11 11s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;animation: movebubbles-pos-11 11s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate}.medium.start-pos-12{-webkit-animation: movebubbles-pos-12 11s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-12 11s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-12 11s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;animation: movebubbles-pos-12 11s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate}.medium.start-pos-13{-webkit-animation: movebubbles-pos-13 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-13 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-13 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;animation: movebubbles-pos-13 11s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate}.medium.start-pos-14{-webkit-animation: movebubbles-pos-14 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-14 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-14 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;animation: movebubbles-pos-14 11s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate}.large{width:20px;height:20px;-webkit-animation: movebubbles-pos-1 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-1 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-1 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;animation: movebubbles-pos-1 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate}.large.start-pos-2{-webkit-animation: movebubbles-pos-2 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-2 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-2 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;animation: movebubbles-pos-2 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate}.large.start-pos-3{-webkit-animation: movebubbles-pos-3 8s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-3 8s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-3 8s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;animation: movebubbles-pos-3 8s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate}.large.start-pos-4{-webkit-animation: movebubbles-pos-4 8s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-4 8s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-4 8s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;animation: movebubbles-pos-4 8s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate}.large.start-pos-5{-webkit-animation: movebubbles-pos-5 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-5 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-5 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;animation: movebubbles-pos-5 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate}.large.start-pos-6{-webkit-animation: movebubbles-pos-6 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-6 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-6 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;animation: movebubbles-pos-6 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate}.large.start-pos-7{-webkit-animation: movebubbles-pos-7 8s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-7 8s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-7 8s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;animation: movebubbles-pos-7 8s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate}.large.start-pos-8{-webkit-animation: movebubbles-pos-8 8s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-8 8s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-8 8s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;animation: movebubbles-pos-8 8s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate}.large.start-pos-9{-webkit-animation: movebubbles-pos-9 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-9 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-9 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;animation: movebubbles-pos-9 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate}.large.start-pos-10{-webkit-animation: movebubbles-pos-10 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-10 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-10 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;animation: movebubbles-pos-10 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate}.large.start-pos-11{-webkit-animation: movebubbles-pos-11 8s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-11 8s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-11 8s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate;animation: movebubbles-pos-11 8s ease-in infinite, sideWays-type-3 2s ease-in-out infinite alternate}.large.start-pos-12{-webkit-animation: movebubbles-pos-12 8s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-12 8s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-12 8s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate;animation: movebubbles-pos-12 8s ease-in infinite, sideWays-type-4 2s ease-in-out infinite alternate}.large.start-pos-13{-webkit-animation: movebubbles-pos-13 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-13 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-13 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate;animation: movebubbles-pos-13 8s ease-in infinite, sideWays-type-1 2s ease-in-out infinite alternate}.large.start-pos-14{-webkit-animation: movebubbles-pos-14 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-14 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;-o-animation: movebubbles-pos-14 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate;animation: movebubbles-pos-14 8s ease-in infinite, sideWays-type-2 2s ease-in-out infinite alternate}.x-large{width:25px;height:25px;-webkit-animation: movebubbles-pos-1 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-1 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-1 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;animation: movebubbles-pos-1 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate}.x-large.start-pos-2{-webkit-animation: movebubbles-pos-2 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-2 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-2 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;animation: movebubbles-pos-2 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate}.x-large.start-pos-3{-webkit-animation: movebubbles-pos-3 7s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-3 7s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-3 7s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;animation: movebubbles-pos-3 7s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate}.x-large.start-pos-4{-webkit-animation: movebubbles-pos-4 7s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-4 7s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-4 7s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;animation: movebubbles-pos-4 7s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate}.x-large.start-pos-5{-webkit-animation: movebubbles-pos-5 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-5 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-5 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;animation: movebubbles-pos-5 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate}.x-large.start-pos-6{-webkit-animation: movebubbles-pos-6 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-6 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-6 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;animation: movebubbles-pos-6 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate}.x-large.start-pos-7{-webkit-animation: movebubbles-pos-7 7s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-7 7s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-7 7s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;animation: movebubbles-pos-7 7s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate}.x-large.start-pos-8{-webkit-animation: movebubbles-pos-8 7s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-8 7s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-8 7s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;animation: movebubbles-pos-8 7s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate}.x-large.start-pos-9{-webkit-animation: movebubbles-pos-9 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-9 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-9 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;animation: movebubbles-pos-9 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate}.x-large.start-pos-10{-webkit-animation: movebubbles-pos-10 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-10 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-10 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;animation: movebubbles-pos-10 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate}.x-large.start-pos-11{-webkit-animation: movebubbles-pos-11 7s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-11 7s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-11 7s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;animation: movebubbles-pos-11 7s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate}.x-large.start-pos-12{-webkit-animation: movebubbles-pos-12 7s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-12 7s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-12 7s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;animation: movebubbles-pos-12 7s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate}.x-large.start-pos-13{-webkit-animation: movebubbles-pos-13 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-13 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-13 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;animation: movebubbles-pos-13 7s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate}.x-large.start-pos-14{-webkit-animation: movebubbles-pos-14 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-14 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-14 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;animation: movebubbles-pos-14 7s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate}.largest{width:60px;height:60px;-webkit-animation: movebubbles-pos-1 2.2s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-1 2.2s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-1 2.2s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;animation: movebubbles-pos-1 2.2s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate}.largest.start-pos-2{-webkit-animation: movebubbles-pos-2 2.3s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-2 2.3s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-2 2.3s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;animation: movebubbles-pos-2 2.3s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate}.largest.start-pos-3{-webkit-animation: movebubbles-pos-3 2.1s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-3 2.1s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-3 2.1s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;animation: movebubbles-pos-3 2.1s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate}.largest.start-pos-4{-webkit-animation: movebubbles-pos-4 1.9s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-4 1.9s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-4 1.9s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;animation: movebubbles-pos-4 1.9s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate}.largest.start-pos-5{-webkit-animation: movebubbles-pos-5 2.4s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-5 2.4s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-5 2.4s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;animation: movebubbles-pos-5 2.4s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate}.largest.start-pos-6{-webkit-animation: movebubbles-pos-6 2.3s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-6 2.3s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-6 2.3s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;animation: movebubbles-pos-6 2.3s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate}.largest.start-pos-7{-webkit-animation: movebubbles-pos-7 2.5s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-7 2.5s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-7 2.5s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;animation: movebubbles-pos-7 2.5s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate}.largest.start-pos-8{-webkit-animation: movebubbles-pos-8 2.2s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-8 2.2s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-8 2.2s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;animation: movebubbles-pos-8 2.2s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate}.largest.start-pos-9{-webkit-animation: movebubbles-pos-9 2.6s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-9 2.6s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-9 2.6s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;animation: movebubbles-pos-9 2.6s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate}.largest.start-pos-10{-webkit-animation: movebubbles-pos-10 2.1s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-10 2.1s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-10 2.1s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;animation: movebubbles-pos-10 2.1s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate}.largest.start-pos-11{-webkit-animation: movebubbles-pos-11 2.3s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-11 2.3s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-11 2.3s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate;animation: movebubbles-pos-11 2.3s ease-in infinite, sideWays-type-3 1s ease-in-out infinite alternate}.largest.start-pos-12{-webkit-animation: movebubbles-pos-12 2.35s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-12 2.35s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-12 2.35s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate;animation: movebubbles-pos-12 2.35s ease-in infinite, sideWays-type-4 1s ease-in-out infinite alternate}.largest.start-pos-13{-webkit-animation: movebubbles-pos-13 2.25s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-13 2.25s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-13 2.25s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate;animation: movebubbles-pos-13 2.25s ease-in infinite, sideWays-type-1 1s ease-in-out infinite alternate}.largest.start-pos-14{-webkit-animation: movebubbles-pos-14 2.15s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-14 2.15s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-14 2.15s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate;animation: movebubbles-pos-14 2.15s ease-in infinite, sideWays-type-2 1s ease-in-out infinite alternate}.x-largest{width:80px;height:80px;-webkit-animation: movebubbles-pos-1 2.1s ease-in infinite 3s, sideWays-type-1 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-1 2.1s ease-in infinite 3s, sideWays-type-1 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-1 2.1s ease-in infinite 3s, sideWays-type-1 1s ease-in-out infinite alternate;animation: movebubbles-pos-1 2.1s ease-in infinite 3s, sideWays-type-1 1s ease-in-out infinite alternate}.x-largest.start-pos-2{-webkit-animation: movebubbles-pos-2 1.8s ease-in infinite 2s, sideWays-type-2 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-2 1.8s ease-in infinite 2s, sideWays-type-2 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-2 1.8s ease-in infinite 2s, sideWays-type-2 1s ease-in-out infinite alternate;animation: movebubbles-pos-2 1.8s ease-in infinite 2s, sideWays-type-2 1s ease-in-out infinite alternate}.x-largest.start-pos-3{-webkit-animation: movebubbles-pos-3 1.7s ease-in infinite 2.5s, sideWays-type-3 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-3 1.7s ease-in infinite 2.5s, sideWays-type-3 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-3 1.7s ease-in infinite 2.5s, sideWays-type-3 1s ease-in-out infinite alternate;animation: movebubbles-pos-3 1.7s ease-in infinite 2.5s, sideWays-type-3 1s ease-in-out infinite alternate}.x-largest.start-pos-4{-webkit-animation: movebubbles-pos-4 1.75s ease-in infinite 1.5s, sideWays-type-4 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-4 1.75s ease-in infinite 1.5s, sideWays-type-4 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-4 1.75s ease-in infinite 1.5s, sideWays-type-4 1s ease-in-out infinite alternate;animation: movebubbles-pos-4 1.75s ease-in infinite 1.5s, sideWays-type-4 1s ease-in-out infinite alternate}.x-largest.start-pos-5{-webkit-animation: movebubbles-pos-5 1.9s ease-in infinite 1.7s, sideWays-type-1 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-5 1.9s ease-in infinite 1.7s, sideWays-type-1 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-5 1.9s ease-in infinite 1.7s, sideWays-type-1 1s ease-in-out infinite alternate;animation: movebubbles-pos-5 1.9s ease-in infinite 1.7s, sideWays-type-1 1s ease-in-out infinite alternate}.x-largest.start-pos-6{-webkit-animation: movebubbles-pos-6 1.95s ease-in infinite 2.1s, sideWays-type-2 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-6 1.95s ease-in infinite 2.1s, sideWays-type-2 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-6 1.95s ease-in infinite 2.1s, sideWays-type-2 1s ease-in-out infinite alternate;animation: movebubbles-pos-6 1.95s ease-in infinite 2.1s, sideWays-type-2 1s ease-in-out infinite alternate}.x-largest.start-pos-7{-webkit-animation: movebubbles-pos-7 2.2s ease-in infinite 5s, sideWays-type-3 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-7 2.2s ease-in infinite 5s, sideWays-type-3 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-7 2.2s ease-in infinite 5s, sideWays-type-3 1s ease-in-out infinite alternate;animation: movebubbles-pos-7 2.2s ease-in infinite 5s, sideWays-type-3 1s ease-in-out infinite alternate}.x-largest.start-pos-8{-webkit-animation: movebubbles-pos-8 2.15s ease-in infinite 1s, sideWays-type-4 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-8 2.15s ease-in infinite 1s, sideWays-type-4 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-8 2.15s ease-in infinite 1s, sideWays-type-4 1s ease-in-out infinite alternate;animation: movebubbles-pos-8 2.15s ease-in infinite 1s, sideWays-type-4 1s ease-in-out infinite alternate}.x-largest.start-pos-9{-webkit-animation: movebubbles-pos-9 2.4s ease-in infinite 1.9s, sideWays-type-1 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-9 2.4s ease-in infinite 1.9s, sideWays-type-1 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-9 2.4s ease-in infinite 1.9s, sideWays-type-1 1s ease-in-out infinite alternate;animation: movebubbles-pos-9 2.4s ease-in infinite 1.9s, sideWays-type-1 1s ease-in-out infinite alternate}.x-largest.start-pos-10{-webkit-animation: movebubbles-pos-10 1.3s ease-in infinite 4s, sideWays-type-2 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-10 1.3s ease-in infinite 4s, sideWays-type-2 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-10 1.3s ease-in infinite 4s, sideWays-type-2 1s ease-in-out infinite alternate;animation: movebubbles-pos-10 1.3s ease-in infinite 4s, sideWays-type-2 1s ease-in-out infinite alternate}.x-largest.start-pos-11{-webkit-animation: movebubbles-pos-11 1.75s ease-in infinite 3.5s, sideWays-type-3 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-11 1.75s ease-in infinite 3.5s, sideWays-type-3 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-11 1.75s ease-in infinite 3.5s, sideWays-type-3 1s ease-in-out infinite alternate;animation: movebubbles-pos-11 1.75s ease-in infinite 3.5s, sideWays-type-3 1s ease-in-out infinite alternate}.x-largest.start-pos-12{-webkit-animation: movebubbles-pos-12 2.45s ease-in infinite 2.5s, sideWays-type-4 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-12 2.45s ease-in infinite 2.5s, sideWays-type-4 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-12 2.45s ease-in infinite 2.5s, sideWays-type-4 1s ease-in-out infinite alternate;animation: movebubbles-pos-12 2.45s ease-in infinite 2.5s, sideWays-type-4 1s ease-in-out infinite alternate}.x-largest.start-pos-13{-webkit-animation: movebubbles-pos-13 2s ease-in infinite 1.8s, sideWays-type-1 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-13 2s ease-in infinite 1.8s, sideWays-type-1 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-13 2s ease-in infinite 1.8s, sideWays-type-1 1s ease-in-out infinite alternate;animation: movebubbles-pos-13 2s ease-in infinite 1.8s, sideWays-type-1 1s ease-in-out infinite alternate}.x-largest.start-pos-14{-webkit-animation: movebubbles-pos-14 2.65s ease-in infinite 1.2s, sideWays-type-2 1s ease-in-out infinite alternate;-moz-animation: movebubbles-pos-14 2.65s ease-in infinite 1.2s, sideWays-type-2 1s ease-in-out infinite alternate;-o-animation: movebubbles-pos-14 2.65s ease-in infinite 1.2s, sideWays-type-2 1s ease-in-out infinite alternate;animation: movebubbles-pos-14 2.65s ease-in infinite 1.2s, sideWays-type-2 1s ease-in-out infinite alternate}.pos-1{left:7%}.pos-2{left:14%}.pos-3{left:21%}.pos-4{left:28%}.pos-5{left:35%}.pos-6{left:42%}.pos-7{left:49%}.pos-8{left:56%}.pos-9{left:63%}.pos-10{left:70%}.pos-11{left:77%}.pos-12{left:84%}.pos-13{left:91%}.pos-14{left:98%}@-webkit-keyframes movebubbles-pos-1 {0% { top: 100%; }
+	  100% { top: -50%; }
+	}@-moz-keyframes movebubbles-pos-1 {0% { top: 100%; }
+	  100% { top: -50%; }
+	}@-o-keyframes movebubbles-pos-1 {0% { top: 100%; }
+	  100% { top: -50%; }
+	}@-ms-keyframes movebubbles-pos-1 {0% { top: 100%; }
+	  100% { top: -50%; }
+	}@keyframes movebubbles-pos-1 {0% { top: 100%; }
+	  100% { top: -50%; }
+	}@-webkit-keyframes movebubbles-pos-2 {0% { top: 150%; }
+	  100% { top: -20%; }
+	}@-moz-keyframes movebubbles-pos-2 {0% { top: 150%; }
+	  100% { top: -20%; }
+	}@-o-keyframes movebubbles-pos-2 {0% { top: 150%; }
+	  100% { top: -20%; }
+	}@-ms-keyframes movebubbles-pos-2 {0% { top: 150%; }
+	  100% { top: -20%; }
+	}@keyframes movebubbles-pos-2 {0% { top: 150%; }
+	  100% { top: -20%; }
+	}@-webkit-keyframes movebubbles-pos-3 {0% { top: 105%; }
+	  100% { top: -10%; }
+	}@-moz-keyframes movebubbles-pos-3 {0% { top: 105%; }
+	  100% { top: -10%; }
+	}@-o-keyframes movebubbles-pos-3 {0% { top: 105%; }
+	  100% { top: -10%; }
+	}@-ms-keyframes movebubbles-pos-3 {0% { top: 105%; }
+	  100% { top: -10%; }
+	}@keyframes movebubbles-pos-3 {0% { top: 105%; }
+	  100% { top: -10%; }
+	}@-webkit-keyframes movebubbles-pos-4 {0% { top: 175%; }
+	  100% { top: -15%; }
+	}@-moz-keyframes movebubbles-pos-4 {0% { top: 175%; }
+	  100% { top: -15%; }
+	}@-o-keyframes movebubbles-pos-4 {0% { top: 175%; }
+	  100% { top: -15%; }
+	}@-ms-keyframes movebubbles-pos-4 {0% { top: 175%; }
+	  100% { top: -15%; }
+	}@keyframes movebubbles-pos-4 {0% { top: 175%; }
+	  100% { top: -15%; }
+	}@-webkit-keyframes movebubbles-pos-5 {0% { top: 130%; }
+	  100% { top: -10%; }
+	}@-moz-keyframes movebubbles-pos-5 {0% { top: 130%; }
+	  100% { top: -10%; }
+	}@-o-keyframes movebubbles-pos-5 {0% { top: 130%; }
+	  100% { top: -10%; }
+	}@-ms-keyframes movebubbles-pos-5 {0% { top: 130%; }
+	  100% { top: -10%; }
+	}@keyframes movebubbles-pos-5 {0% { top: 130%; }
+	  100% { top: -10%; }
+	}@-webkit-keyframes movebubbles-pos-6 {0% { top: 160%; }
+	  100% { top: -40%; }
+	}@-moz-keyframes movebubbles-pos-6 {0% { top: 160%; }
+	  100% { top: -40%; }
+	}@-o-keyframes movebubbles-pos-6 {0% { top: 160%; }
+	  100% { top: -40%; }
+	}@-ms-keyframes movebubbles-pos-6 {0% { top: 160%; }
+	  100% { top: -40%; }
+	}@keyframes movebubbles-pos-6 {0% { top: 160%; }
+	  100% { top: -40%; }
+	}@-webkit-keyframes movebubbles-pos-7 {0% { top: 145%; }
+	  100% { top: -25%; }
+	}@-moz-keyframes movebubbles-pos-7 {0% { top: 145%; }
+	  100% { top: -25%; }
+	}@-o-keyframes movebubbles-pos-7 {0% { top: 145%; }
+	  100% { top: -25%; }
+	}@-ms-keyframes movebubbles-pos-7 {0% { top: 145%; }
+	  100% { top: -25%; }
+	}@keyframes movebubbles-pos-7 {0% { top: 145%; }
+	  100% { top: -25%; }
+	}@-webkit-keyframes movebubbles-pos-8 {0% { top: 200%; }
+	  100% { top: -15%; }
+	}@-moz-keyframes movebubbles-pos-8 {0% { top: 200%; }
+	  100% { top: -15%; }
+	}@-o-keyframes movebubbles-pos-8 {0% { top: 200%; }
+	  100% { top: -15%; }
+	}@-ms-keyframes movebubbles-pos-8 {0% { top: 200%; }
+	  100% { top: -15%; }
+	}@keyframes movebubbles-pos-8 {0% { top: 200%; }
+	  100% { top: -15%; }
+	}@-webkit-keyframes movebubbles-pos-9 {0% { top: 135%; }
+	  100% { top: -65%; }
+	}@-moz-keyframes movebubbles-pos-9 {0% { top: 135%; }
+	  100% { top: -65%; }
+	}@-o-keyframes movebubbles-pos-9 {0% { top: 135%; }
+	  100% { top: -65%; }
+	}@-ms-keyframes movebubbles-pos-9 {0% { top: 135%; }
+	  100% { top: -65%; }
+	}@keyframes movebubbles-pos-9 {0% { top: 135%; }
+	  100% { top: -65%; }
+	}@-webkit-keyframes movebubbles-pos-10 {0% { top: 155%; }
+	  100% { top: -50%; }
+	}@-moz-keyframes movebubbles-pos-10 {0% { top: 155%; }
+	  100% { top: -50%; }
+	}@-o-keyframes movebubbles-pos-10 {0% { top: 155%; }
+	  100% { top: -50%; }
+	}@-ms-keyframes movebubbles-pos-10 {0% { top: 155%; }
+	  100% { top: -50%; }
+	}@keyframes movebubbles-pos-10 {0% { top: 155%; }
+	  100% { top: -50%; }
+	}@-webkit-keyframes movebubbles-pos-11 {0% { top: 120%; }
+	  100% { top: -10%; }
+	}@-moz-keyframes movebubbles-pos-11 {0% { top: 120%; }
+	  100% { top: -10%; }
+	}@-o-keyframes movebubbles-pos-11 {0% { top: 120%; }
+	  100% { top: -10%; }
+	}@-ms-keyframes movebubbles-pos-11 {0% { top: 120%; }
+	  100% { top: -10%; }
+	}@keyframes movebubbles-pos-11 {0% { top: 120%; }
+	  100% { top: -10%; }
+	}@-webkit-keyframes movebubbles-pos-12 {0% { top: 185%; }
+	  100% { top: -80%; }
+	}@-moz-keyframes movebubbles-pos-12 {0% { top: 185%; }
+	  100% { top: -80%; }
+	}@-o-keyframes movebubbles-pos-12 {0% { top: 185%; }
+	  100% { top: -80%; }
+	}@-ms-keyframes movebubbles-pos-12 {0% { top: 185%; }
+	  100% { top: -80%; }
+	}@keyframes movebubbles-pos-12 {0% { top: 185%; }
+	  100% { top: -80%; }
+	}@-webkit-keyframes movebubbles-pos-13 {0% { top: 125%; }
+	  100% { top: -15%; }
+	}@-moz-keyframes movebubbles-pos-13 {0% { top: 125%; }
+	  100% { top: -15%; }
+	}@-o-keyframes movebubbles-pos-13 {0% { top: 125%; }
+	  100% { top: -15%; }
+	}@-ms-keyframes movebubbles-pos-13 {0% { top: 125%; }
+	  100% { top: -15%; }
+	}@keyframes movebubbles-pos-13 {0% { top: 125%; }
+	  100% { top: -15%; }
+	}@-webkit-keyframes movebubbles-pos-14 {0% { top: 195%; }
+	  100% { top: -5%; }
+	}@-moz-keyframes movebubbles-pos-14 {0% { top: 195%; }
+	  100% { top: -5%; }
+	}@-o-keyframes movebubbles-pos-14 {0% { top: 195%; }
+	  100% { top: -5%; }
+	}@-ms-keyframes movebubbles-pos-14 {0% { top: 195%; }
+	  100% { top: -5%; }
+	}@keyframes movebubbles-pos-14 {0% { top: 195%; }
+	  100% { top: -5%; }
+	}@-webkit-keyframes sideWays-type-1 {0% { margin-left:0px; }
+	  100% { margin-left:30px; }
+	}@-moz-keyframes sideWays-type-1 {0% { margin-left:0px; }
+	  100% { margin-left:30px; }
+	}@-o-keyframes sideWays-type-1 {0% { margin-left:0px; }
+	  100% { margin-left:30px; }
+	}@-ms-keyframes sideWays-type-1 {0% { margin-left:0px; }
+	  100% { margin-left:30px; }
+	}@keyframes sideWays-type-1 {0% { margin-left:0px; }
+	  100% { margin-left:30px; }
+	}@-webkit-keyframes sideWays-type-2 {0% { margin-left:0px; }
+  100% { margin-left:40px; }
+	}@-moz-keyframes sideWays-type-2 {0% { margin-left:0px; }
+	  100% { margin-left:40px; }
+	}@-o-keyframes sideWays-type-2 {0% { margin-left:0px; }
+	  100% { margin-left:40px; }
+	}@-ms-keyframes sideWays-type-2 {0% { margin-left:0px; }
+	  100% { margin-left:40px; }
+	}@keyframes sideWays-type-2 {0% { margin-left:0px; }
+	  100% { margin-left:40px; }
+	}@-webkit-keyframes sideWays-type-3 {0% { margin-left:0px; }
+  100% { margin-left:15px; }
+	}@-moz-keyframes sideWays-type-3 {0% { margin-left:0px; }
+	  100% { margin-left:15px; }
+	}@-o-keyframes sideWays-type-3 {0% { margin-left:0px; }
+	  100% { margin-left:15px; }
+	}@-ms-keyframes sideWays-type-3 {0% { margin-left:0px; }
+	  100% { margin-left:15px; }
+	}@keyframes sideWays-type-3 {0% { margin-left:0px; }
+	  100% { margin-left:15px; }
+	}@-webkit-keyframes sideWays-type-4 {0% { margin-left:0px; }
+  100% { margin-left:20px; }
+	}@-moz-keyframes sideWays-type-4 {0% { margin-left:0px; }
+	  100% { margin-left:20px; }
+	}@-o-keyframes sideWays-type-4 {0% { margin-left:0px; }
+	  100% { margin-left:20px; }
+	}@-ms-keyframes sideWays-type-4 {0% { margin-left:0px; }
+	  100% { margin-left:20px; }
+	}@keyframes sideWays-type-4 {0% { margin-left:0px; }
+	  100% { margin-left:20px; }
+	}}</style>
+<aside id="animation-overlay-holder">
+<div id="overlay"></div>
+<div class="bubble x-small pos-1 start-pos-2 touch"></div>
+<div class="bubble x-small pos-5 start-pos-4 touch"></div>
+<div class="bubble x-small pos-7 start-pos-5"></div>
+<div class="bubble x-small pos-9 start-pos-6 touch"></div>
+<div class="bubble x-small pos-11 start-pos-7"></div>
+<div class="bubble x-small pos-13 start-pos-8 touch"></div>
+<div class="bubble x-small pos-4 start-pos-10 touch"></div>
+<div class="bubble x-small pos-6 start-pos-11"></div>
+<div class="bubble x-small pos-8 start-pos-12"></div>
+<div class="bubble x-small pos-10 start-pos-13 touch"></div>
+<div class="bubble x-small pos-14 touch"></div>
+<div class="bubble small pos-1 start-pos-2"></div>
+<div class="bubble small pos-3 start-pos-3 touch"></div>
+<div class="bubble small pos-7 start-pos-5 touch"></div>
+<div class="bubble small pos-9 start-pos-6"></div>
+<div class="bubble small pos-11 start-pos-7 touch"></div>
+<div class="bubble small pos-13 start-pos-8"></div>
+<div class="bubble small pos-2 start-pos-9 touch"></div>
+<div class="bubble small pos-6 start-pos-11 touch"></div>
+<div class="bubble small pos-8 start-pos-12"></div>
+<div class="bubble small pos-4 start-pos-13 touch"></div>
+<div class="bubble small pos-5 touch"></div>
+<div class="bubble medium pos-1"></div>
+<div class="bubble medium pos-3 start-pos-2 touch"></div>
+<div class="bubble medium pos-5 start-pos-3"></div>
+<div class="bubble medium pos-7 start-pos-4 touch"></div>
+<div class="bubble medium pos-11 start-pos-6 touch"></div>
+<div class="bubble medium pos-2 start-pos-8 touch"></div>
+<div class="bubble medium pos-4 start-pos-9"></div>
+<div class="bubble medium pos-6 start-pos-10 touch"></div>
+<div class="bubble medium pos-8 start-pos-11"></div>
+<div class="bubble medium pos-10 start-pos-12 touch"></div>
+<div class="bubble medium pos-14 start-pos-14 touch"></div>
+<div class="bubble large pos-1"></div>
+<div class="bubble large pos-3 start-pos-2 touch"></div>
+<div class="bubble large pos-5 start-pos-3"></div>
+<div class="bubble large pos-7 start-pos-4 touch"></div>
+<div class="bubble large pos-11 start-pos-6 touch"></div>
+<div class="bubble large pos-13 start-pos-7"></div>
+<div class="bubble large pos-2 start-pos-8 touch"></div>
+<div class="bubble large pos-6 start-pos-10 touch"></div>
+<div class="bubble large pos-8 start-pos-11"></div>
+<div class="bubble large pos-10 start-pos-12 touch"></div>
+<div class="bubble large pos-14 start-pos-14 touch"></div>
+<div class="bubble x-large pos-2 start-pos-2 touch"></div>
+<div class="bubble x-large pos-3 start-pos-3"></div>
+<div class="bubble x-large pos-7 start-pos-4 touch"></div>
+<div class="bubble x-large pos-10 start-pos-6 touch"></div>
+<div class="bubble x-large pos-13 start-pos-7"></div>
+<div class="bubble x-large pos-2 start-pos-8 touch"></div>
+<div class="bubble x-large pos-6 start-pos-10 touch"></div>
+<div class="bubble x-large pos-8 start-pos-11"></div>
+<div class="bubble x-large pos-11 start-pos-12 touch"></div>
+<div class="bubble x-large pos-12 start-pos-13"></div>
+<div class="bubble x-large pos-14 start-pos-14 touch"></div>
+<div class="bubble blur largest pos-1 touch"></div>
+<div class="bubble blur largest pos-2 start-pos-2"></div>
+<div class="bubble blur largest pos-3 start-pos-3 touch"></div>
+<div class="bubble blur largest pos-9 start-pos-5 touch"></div>
+<div class="bubble blur largest pos-10 start-pos-6"></div>
+<div class="bubble blur largest pos-13 start-pos-7 touch"></div>
+<div class="bubble blur largest pos-4 start-pos-9 touch"></div>
+<div class="bubble blur largest pos-8 start-pos-11 touch"></div>
+<div class="bubble blur largest pos-11 start-pos-12"></div>
+<div class="bubble blur largest pos-12 start-pos-13 touch"></div>
+<div class="bubble blur largest pos-14 start-pos-14"></div>
+<div class="bubble blur-2 x-largest pos-1"></div>
+<div class="bubble blur-2 x-largest pos-2 start-pos-2 touch"></div>
+<div class="bubble blur-2 x-largest pos-7 start-pos-4 touch"></div>
+<div class="bubble blur-2 x-largest pos-10 start-pos-6 touch"></div>
+<div class="bubble blur-2 x-largest pos-13 start-pos-7"></div>
+<div class="bubble blur-2 x-largest pos-2 start-pos-8 touch"></div>
+<div class="bubble blur-2 x-largest pos-6 start-pos-10 touch"></div>
+<div class="bubble blur-2 x-largest pos-8 start-pos-11"></div>
+<div class="bubble blur-2 x-largest pos-11 start-pos-12 touch"></div>
+<div class="bubble blur-2 x-largest pos-12 start-pos-13"></div>
+<div class="bubble blur-2 x-largest pos-14 start-pos-14 touch"></div>
+</aside>
+</div>
+</div>
+<div class="a-slot a-normal  
+          aRichText           clearfix" data-pageid="183" data-name="blog-body" data-permid="3" data-width="1050" id="a-slot-183-blog-body-3">
+<div class="a-slot-content clearfix" id="a-slot-content-183-blog-body-3">
+<h3>
+Acting like bubbles</h3>
+<p>
+There are 77 bubbles in total, each one animates along its own path and continues to loop that animation. Using CSS only animation (no javascript) allows us to have a large number of moving parts because CSS is hardware accelerated (rather than browser based).</p>
+<p>
+Of course the major drawback to using CSS animations is, of course, less-capable browsers do not support CSS animations at all. You could write some nice javascript fallbacks, but you would likely find that this would be far too demanding for the browser and would not result in a clean, smooth finish like that of the CSS animation. The way we saw it was; if the browser could not handle the CSS animation, it would certainly struggle with that much javascript animation happening on the same page.&nbsp;</p>
+<p>
+The challenge of making these bubbles animate is to make them look natural, fluid and random - like that of real bubbles in a drink! We used a few different techniques to avoid repeating patterns.</p>
+<ul><li>
+We used 14 different horizontal start positions (in percentages) to stagger the bubbles across the page.</li>
+<li>
+We also used 14 different vertical start positions, attached to different types of animation keyframes. By starting the bubble more than 100% of the height of container, and ending it less that 0% the height of the container, you can stagger the speed of the animation without changing it, per bubble.&nbsp;</li>
+<li>
+We then used 14 different durations of each of these animations, per bubble type, to also help stagger the bubbles.&nbsp;</li>
+<li>
+We did a similar thing with the sideways animation, but with less variables.&nbsp;</li>
+</ul><p>
+The end effect of these combinations means that, even though you can track each individual bubble from its start to end point and watch it repeat, there is very little correlation between the bubbles themselves. Those that have a keen enough eye will notice that the bubbles accelerate towards the end of their path (as would a real bubble!), this is easily achieved using the 'ease-in' animation timing function.&nbsp;</p>
+<h3>
+Perspective</h3>
+<p>
+An important part of the equation to make the bubbles realistic is to make sure there is perspective. The principle of <a href="http://superrb.com/blog/2012/10/01/jquery-parallax-filter-plugin-how-we-built-it">parallaxing effects</a> is very simple; objects in the foreground move faster than those in the background. This creates the illusion of depth.</p>
+<p>
+To apply this to our bubbles was pretty simple - make the small bubbles slower and crisper and the large bubbles faster and blurred.&nbsp;</p>
+<p>
+We only used 3 different images in this entire animation (as the background is a CSS gradient). *Funnily enough, we originally used a motion blur on the blurred bubbles, only to find that the actual motion completely cancelled it out! Makes sense when you think it through, but we didn't predict it at the time!&nbsp;</p>
+</div>
+</div>
+<div class="a-slot a-normal normal 
+          aSlideshow           clearfix" data-pageid="183" data-name="blog-body" data-permid="4" data-width="1050" id="a-slot-183-blog-body-4">
+<div class="a-slot-content clearfix" id="a-slot-content-183-blog-body-4">
+<ul id="a-slideshow-183-blog-body-4" class="a-slideshow clearfix single-image transition-normal">
+<li class="a-slideshow-item" id="a-slideshow-item-183-blog-body-4-0" title="" style="display: list-item;">
+<ul class="a-media-container" data-slug="bubbles">
+<li class="a-slideshow-image loading-image" style="display:block"><img alt="bubbles" width="1050" height="250" src="./bieranimation4_files/1050x250xbubbles.1050.250.s.jpg.pagespeed.ic.pFFxCKDcNF.webp" style="opacity: 1;"></li>
+</ul>	</li>
+</ul>
+</div>
+</div>
+<div class="a-slot a-normal  
+          aRichText           clearfix" data-pageid="183" data-name="blog-body" data-permid="5" data-width="1050" id="a-slot-183-blog-body-5">
+<div class="a-slot-content clearfix" id="a-slot-content-183-blog-body-5">
+<p>
+As there are many lines of code to this piece, with most of them being repeated (but adjusted to make the bubbles random), here are a few snippets to give you an idea of what's going on behind the scenes. If your already working with CSS animations, we won't need to go over any of the basics here. If you are new to it, then head over to the <a href="http://www.w3schools.com/css3/css3_animations.asp">W3C website</a> to get a bit more clued up - there is a lot to learn, but once you get your head round it, you will open up a lot more doors for smoother animation and more!</p>
+<p>
+Each bubble has a class which defines its size, start position (horizontal) and it's start position (vertical).&nbsp;</p>
+<p>
+The size and horizontal start position for each button are pretty self-explanatory. The last class for the vertical start position links the bubble to specific animation type (keyframes) and a duration. By adding random combinations of these classes to each bubble, we achieve the random sequencing of the animations.&nbsp;</p>
+<p>
+For example;</p>
+<pre>.small.start-pos-2 {
+	  -webkit-animation: movebubbles-pos-2 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate;
+	  -moz-animation: movebubbles-pos-2 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate;
+	  -o-animation: movebubbles-pos-2 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate;			
+	  animation: movebubbles-pos-2 15s ease-in infinite, sideWays-type-2 3s ease-in-out infinite alternate; 
+	}</pre>
+<p>
+The above shows this small bubble with the class of 'start-pos-2' linking to the keyframes of 'movebubbles-pos-1' and 'sideways-type-2'. Its also stated that the movebubbles animation should last for 15 seconds and repeat, infinitely. And that the sideways animation should last 3s and also repeat infinitely.</p>
+<p>
+Here is the corresponding keyframes involved;</p>
+<pre>	@keyframes movebubbles-pos-2 {
+	  0% { top: 150%; }
+	  100% { top: -20%; }
+	}		</pre>
+<pre>	@keyframes sideWays-type-2 {
+	  0% { margin-left:0px; }
+	  100% { margin-left:40px; }
+	}		</pre>
+<p>
+These keyframes have to be repeated (like the animations in the CSS) for all browser types, leading a large CSS sheet!&nbsp;</p>
+<p>
+The above is just to give you a flavour of what is happening and the reasons behind the decisions we made along the way.</p>
+<p>
+For an in-depth look at code, check out the whole lot on <a href="http://jsfiddle.net/superrb/Gj2LD/">jsFiddle, here</a>.</p>
+</div>
+</div>
+</div> </div>
+<aside class="blog-item-categories">
+<span class="blog-item-categories-label">Categories:</span>
+<a href="http://superrb.com/blog/category/technical">Technical</a> , <a href="http://superrb.com/blog/category/programming">Programming</a> </aside>
+</article>
+<div id="disqus_thread"><iframe id="dsq-2" data-disqus-uid="2" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="./bieranimation4_files/saved_resource.htm" style="width: 100% !important; border: none !important; overflow: hidden !important; height: 299px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>
+<script>var disqus_identifier="87";(function(){var dsq=document.createElement('script');dsq.type='text/javascript';dsq.async=true;var protocol="http";dsq.src=protocol+"://superrb.disqus.com/embed.js";(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(dsq);})();var disqus_developer=true;</script>
+<noscript>Please enable JavaScript to view the &amp;lt;a href="http://disqus.com/?ref_noscript=superrb"&amp;gt;comments powered by Disqus.&amp;lt;/a&amp;gt;</noscript>
+
+</div>
+</section>
+<footer class="main-foot">
+<h1>Get in Touch</h1>
+<h2><a href="mailto:hello@superrb.com" target="_blank">hello@superrb.com</a></h2>
+<h2><a href="tel:+442033979784">020 3397 9784</a></h2>
+<aside class="socialise clearfix">
+<a href="http://twitter.com/superrbstudio" target="_blank" class="ss-icon ss-social-circle"></a>
+<a href="https://www.facebook.com/superrb" target="_blank" class="ss-icon ss-social-circle"></a>
+<a href="https://plus.google.com/117765533979338879881?rel=publisher" rel="publisher" target="_blank" class="ss-icon ss-social-circle"></a>
+<a href="http://instagram.com/superrb" target="_blank" class="ss-icon ss-social-circle instagram"></a>
+</aside>
+<aside class="copyright">
+<p>© 2014 Superrb Ltd. All rights reserved.</p>
+</aside>
+<nav class="footer-nav">
+<ul class="a-nav a-nav-footer-nav tabs nav-depth-0 clearfix " id="a-nav-footer-nav-0">
+<li class="a-nav-item"><a class="a-nav-link homepage" href="http://superrb.com/"><span class="homepage"><span>Work</span></span></a></li>
+<li class="a-nav-item a-nav-item-0 first" id="a-nav-item-footer-nav-140">
+<a class="a-nav-link a-nav-link-0" href="http://superrb.com/cookie-policy">Cookie Policy</a>
+</li>
+<li class="a-nav-item a-nav-item-0 second" id="a-nav-item-footer-nav-16">
+<a class="a-nav-link a-nav-link-0" href="http://superrb.com/privacy-policy">Privacy Policy</a>
+</li>
+<li class="a-nav-item a-nav-item-0 next-last" id="a-nav-item-footer-nav-17">
+<a class="a-nav-link a-nav-link-0" href="http://superrb.com/terms-conditions">Terms &amp; Conditions</a>
+</li>
+<li class="a-nav-item a-nav-item-0 last" id="a-nav-item-footer-nav-126">
+<a class="a-nav-link a-nav-link-0" href="http://superrb.com/open-source">Open Source Projects</a>
+</li>
+</ul>
+</nav>
+</footer>
+<script data-asset-group="global" src="./bieranimation4_files/9dcf8dc0651c96ab05ced3d21c25938f.js"></script>­<style>@font-face {font-family:"font";src:url("https://")}@media (touch-enabled),(-webkit-touch-enabled),(-moz-touch-enabled),(-o-touch-enabled),(-ms-touch-enabled),(modernizr){#touch{top:9px;position:absolute}}@media (transform-3d),(-webkit-transform-3d),(-moz-transform-3d),(-o-transform-3d),(-ms-transform-3d),(modernizr){#csstransforms3d{left:9px;position:absolute;height:3px;}}#generatedcontent:after{content:":)";visibility:hidden}</style>
+<!--[if lt IE 9]>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				apostrophe.IE6({'authenticated':false, 'message':"You are using IE6! That is just awful! Apostrophe does not support editing using Internet Explorer 6. Why don't you try upgrading? <a href=\"http:\/\/www.getfirefox.com\">Firefox<\/a> <a href=\"http:\/\/www.google.com\/chrome\">Chrome<\/a> \t<a href=\"http:\/\/www.apple.com\/safari\/download\/\">Safari<\/a> <a href=\"http:\/\/www.microsoft.com\/windows\/internet-explorer\/worldwide-sites.aspx\">IE8<\/a>"});
+			});
+		</script>
+	<![endif]-->
+<script>var _gaq=_gaq||[];_gaq.push(['_setAccount',"UA-22193724-1"]);_gaq.push(['_setDomainName',"superrb.com"]);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://':'http://')+'stats.g.doubleclick.net/dc.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+<script>var disqus_shortname="superrb";(function(){var s=document.createElement('script');s.async=true;s.src="http://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName('HEAD')[0]||document.getElementsByTagName('BODY')[0]).appendChild(s);}());</script>
+<script id="a-js-calls">$(function(){aBlog.sidebarEnhancements([]);sbBlogFilters();apostrophe.slideshowSlot({"debug":false,"id":"183-blog-body-6","position":false,"interval":0,"transition":"normal","duration":300,"title":false});apostrophe.slideshowSlot({"debug":false,"id":"183-blog-body-4","position":false,"interval":0,"transition":"normal","duration":300,"title":false});sbLoadingImages(".content");sbFitVids();sbReplaceSVG();sbResponsiveNavigation();sbFixedHeader();apostrophe.setMessages({"updating":"Updating...","updated":"Updated","save_changes_first":"Please save your changes first."});apostrophe.smartCSS();apostrophe.onBeforeUnload();apostrophe.ready();$("body").trigger("aAfterJsCalls");});</script>
+<script>var RumID=4929;</script><script async="" src="./bieranimation4_files/embed(1).js"></script>
+
+
+</body></html>
