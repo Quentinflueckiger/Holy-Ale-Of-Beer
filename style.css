@@ -1,9 +1,13 @@
 body {
-background-color: black;
+
 color: yellow;
 font-family: 	"Verdana";
 font-size:  12px;
-
+/*background-image:url("bieranimation2.gif");*/
+background-repeat: no-repeat;
+background-color: black;
+background-position: center;
+background-attachment: local;
 }
 hr    {color: yellow;
 }
@@ -53,5 +57,15 @@ color: black;
 .blog-masthead{
 
 background-color: yellow;
+
+}
+textarea{
+background-image:url("bieranimation2.gif");
+color: Black;
+background-repeat: no-repeat;
+}
+legend{
+
+color: yellow;
 
 }
