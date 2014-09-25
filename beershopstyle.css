@@ -39,3 +39,26 @@ right : 0;
 left : 75%;
 
 }
+#tableportrait {
+border : 2;
+width : 80%;
+margin-left : 10%;
+margin-right : 10%;
+}
+#tablewidth {
+width: 39%;
+height : 20%;
+text-align: center;
+}
+#imgportraitleft {
+width :200px;
+height : 200px;
+border : 0;
+float : left;
+}
+#imgportraitright {
+width :200px;
+height : 200px;
+border : 0;
+float : right;
+}
