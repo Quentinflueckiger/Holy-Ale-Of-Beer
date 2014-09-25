@@ -61,7 +61,8 @@ background-color: yellow;
 
 }
 textarea{
-background: transparent;
+background: white;
+opacity: 0.4;
 color: blue;
 background-repeat: no-repeat;
 }
