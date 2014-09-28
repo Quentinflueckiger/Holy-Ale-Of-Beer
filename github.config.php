@@ -4,13 +4,13 @@
 $enabled=true;
 
 // Email Recipient
-$to_email="<to@email.com>";
+$to_email="adrian@aulbach.ch";
 
 // Address Email will come from
-$from_email="<from@email.com>";
+$from_email="git@theholyale.com";
 
 // Site URL being deployed
-$site_name="<your_site_name>";
+$site_name="theholyale.com";
 
 // Whitelist Users?  (set valid_users if true)
 $limit_users=false;
