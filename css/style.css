@@ -1,70 +1,52 @@
+element.style {
+}
+.carousel {
+height: 500px;
+margin-bottom: 1000px;
+}
+.carousel {
+position: center;
+
+}
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+user agent stylesheetdiv {
+display: block;
+}
+Pseudo ::before element
+:before, :after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+Pseudo ::after element
+:before, :after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+Inherited from body
 body {
-
-color: yellow;
-font-family: 	"Verdana";
-font-size:  12px;
-background-image:url("bieranimation2.gif");
-background-size: contain;
-background-repeat: no-repeat;
-background-color: black;
-background-position: center;
-background-attachment: local;
+padding-bottom: 40px;
+color: #5a5a5a;
 }
-hr    {color: yellow;
+body {
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+background-color: #fff;
 }
-h1 {
-color: 	yellow;
-font-family: 	"Verdana";
-font-size:	32px;
-text-align: center;
+Inherited from html
+html {
+font-size: 10px;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-h2 {
-color: 	yellow;
-font-family: 	"Verdana";
-font-size:	16px;
-text-align: center;
+html {
+font-family: sans-serif;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
 }
-/* Nav links */
-.blog-nav-item {
-  position: relative;
-  display: inline-block;
-  padding: 10px;
-  font-weight: 500;
-  color: black;
-}
-.blog-nav-item:hover{
-
-color: black;
-
-}
-.blog-nav-item:focus {
-  color: black;
-  text-decoration: none;
-}
-
-.blog-nav .active:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 0;
-  margin-left: -5px;
-  vertical-align: middle;
-  content: " ";
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid;
-  border-left: 5px solid transparent;
-}
-.blog-masthead{
-
-background-color: yellow;
-
-}
-textarea{
-background: white;
-opacity: 0.4;
-color: blue;
-background-repeat: no-repeat;
-}
-
-
