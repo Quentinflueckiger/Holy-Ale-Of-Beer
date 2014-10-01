@@ -5,4 +5,4 @@ from django.http import HttpResponse
 def index(request):
 	return HttpResponse("Index of Beer")
 def detail(request, beer_id):
-	return HttpResponse("You're looking at beer #%i" % beer_id)
+	return HttpResponse("You're looking at beer #" + beer_id)
