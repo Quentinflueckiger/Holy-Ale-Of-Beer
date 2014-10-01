@@ -16,7 +16,7 @@
    id="svg2"
    height="297mm"
    width="210mm"
-   sodipodi:docname="logo.png">
+   sodipodi:docname="logo.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -103,9 +103,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="362.90901"
-     inkscape:cy="659.38657"
+     inkscape:zoom="0.7"
+     inkscape:cx="571.78851"
+     inkscape:cy="694.1201"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -123,7 +123,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -132,13 +132,13 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="opacity:0.63600003000000005;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.57000005000000000;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.00452489000000000;stroke-dasharray:none"
+       style="opacity:0.63600003;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.11504042;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.00452492;stroke-dasharray:none"
        id="rect6933"
-       width="667.14288"
-       height="818.57141"
-       x="32.857143"
-       y="23.790754"
-       ry="1.4285698" />
+       width="470.45316"
+       height="585.51904"
+       x="115.12466"
+       y="134.64766"
+       ry="1.021847" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 120 202.375 C 121.49976 205.23794 120.34023 256.41036 132 306.375 C 144.75741 361.04328 168.31164 399.94443 170 402.375 C 195.883 439.63626 268.91711 452.94407 275 487.375 C 288.73816 565.13691 289.01815 574.09239 290 639.375 C 211.90621 648.73139 178.78488 618.22601 150 712.375 C 651.42857 713.80358 550 712.375 550 712.375 C 515.83253 618.9146 484.6571 649.3154 410 639.375 C 412.31574 575.82557 411.22318 569.25313 425 487.375 C 431.73326 447.35803 506.91073 442.68926 530 402.375 C 530 402.375 559.22568 361.94704 568 306.375 C 573.93054 268.81399 574.62005 240.94643 580 202.375 L 500 202.375 C 497.60287 202.375 501.05288 360.95859 432 402.375 C 432 402.375 383.06689 421.28424 355 422.375 C 352.16847 422.3919 353.35688 422.374 350 422.375 C 346.8487 422.376 347.78772 422.393 345 422.375 C 328.46217 421.74758 268 402.375 268 402.375 C 201.2814 367.66772 204.93657 251.80074 202.65625 214.28125 C 200.76018 211.73393 200.51994 208.65772 201.84375 205.96875 C 201.41395 203.64667 200.81927 202.375 200 202.375 L 120 202.375 z "
