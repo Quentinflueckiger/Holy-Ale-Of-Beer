@@ -1,5 +1,5 @@
 <ul>
 	{% for beer in beer_list %}
-		<li>{{beer.brand.name}} {{beer.name}}</li>
+	<li><a href="{% url 'detail' beer.id %}" >{{beer.brand.name}} {{beer.name}}</a></li>
 	{% endfor %}
 </ul>
