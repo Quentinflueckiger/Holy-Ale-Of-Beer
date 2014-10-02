@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.template import RequestContext, loader
 from beer.models import Beer
-from django.http import HttpResponse
+from django.http import HttpResponse, Http404
+from django.shortcuts import render
 
 # Create your views here.
 def index(request):
@@ -12,4 +13,8 @@ def index(request):
 
 
 def detail(request, beer_id):
-	return HttpResponse("You're looking at beer #" + beer_id)
+	try:
+		beer = Beer.objects.get(pk=beer_id)
+	except Beer.DoesNotExist:
+			raise Http404
+	return render(request, 'beer/detail.html', {'beer':beer})
