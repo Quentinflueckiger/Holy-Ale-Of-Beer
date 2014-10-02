@@ -163,3 +163,15 @@ width: 39%;
 height : 20%;
 text-align: center;
 }
+
+.beertile
+{
+height: 300px;
+display:inline-block;
+text-overflow: ellipsis; 
+overflow:hidden;
+height: 200px;
+
+
+
+}
