@@ -164,7 +164,7 @@ height : 20%;
 text-align: center;
 }
 
-.beertile
+/*.beertile
 {
 height: 300px;
 display:inline-block;
@@ -174,4 +174,14 @@ height: 200px;
 
 
 
+}*/
+
+.beertiles p{
+height: 200px;
+text-overflow: ellipsis;
+overflow: hidden;
+}
+
+.beertiles img{
+height: 100px;
 }
