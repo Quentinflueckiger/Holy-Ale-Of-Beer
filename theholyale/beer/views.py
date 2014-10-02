@@ -18,3 +18,10 @@ def detail(request, beer_id):
 	except Beer.DoesNotExist:
 			raise Http404
 	return render(request, 'beer/detail.html', {'beer':beer})
+
+def rate(request, beer_id):
+	try:
+		beer = Beer.objects.get(pk=beer_id)
+	except Beer.DoesNotExist:
+			raise Http404
+	return render(request, 'beer/detail.html', {'beer':beer})
