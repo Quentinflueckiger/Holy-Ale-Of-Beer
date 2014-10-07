@@ -185,3 +185,8 @@ overflow: hidden;
 .beertiles img{
 height: 50px;
 }
+.abouttile{
+height : 300px;
+text-overflow :ellipsis;
+overflow : hidden;
+}
