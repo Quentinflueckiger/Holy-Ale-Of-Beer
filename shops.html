@@ -9,6 +9,10 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"-->
 	<!-- Link css -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	    <!-- Carousel Assets -->
+    <link href="Carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="Carousel/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="Carousel/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 	
 	<link rel="icon" href="Bilder und Gifs/logo_transp.png" type="image/x-icon">
 	<title> The Holy Beer Shops </title>
@@ -118,78 +122,100 @@
 	<br>
 	<br>
 	<h1 align="center"> New Beer Shops </h1>
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" align="center">
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-		</ol>
+	<div id="demo">
+        <div class="container">
+          <div class="row">
+            <div class="span12">
 
-		<!-- Wrapper for slides -->
-		<div class="carousel-inner">
-			<div class="item active">
-				<!-- Bier Shop Bienne-->
-				<a href="http://biershop.bierbienne.ch/" target="_blank"><img src="Bilder und Gifs/biershopbienne.jpg" alt="BiershopBienne" id="biershopimgstyle"></a>
-				<div class="carousel-caption">
-				<h3> Beer Shop Bienne (CH) </h3>
-				<br>
-				<br>
-				<p id="biershoptext">This not so small Beer Shop is located in Bienne, they have more than 400 hundreds sort of beers and there are brewers too. You can buy some at the shop to enjoy later or go to their bar who is right next door to drink some of the beers they have in the shop.
-				</p>
-				</div>
-				<div class="carousel-caption" id="carouselimgright">
-				<img src="flag/flagch.jpg" id="beershopimgright">
-				</div>
-			</div>
-			<div class="item">
-				<!-- Crafty Bier Shop -->
-				<a href="http://craftybeershop.com/" target="_blank"><img src="Bilder und Gifs/craftybeershop.jpg" alt="CraftyBeerShop" id="biershopimgstyle"></a>
-				<div class="carousel-caption">
-				<h3> Crafty's Beer Shop (USA) </h3>
-				<br>
-				<br>
-				<p id="biershoptext">Crafty Beer Shop carries national and international craft beer, while keeping a focus on the North Carolina beer offerings. They have 8 different beers on tap at all times.
-				</p>
-				</div>
-				<div class="carousel-caption" id="carouselimgright">
-				<img src="flag/usaflag.jpg" id="beershopimgright">
-				</div>
-			</div>
-			<div class="item">
-				<!-- Crafty Bier Shop -->
-				<a href="http://www.brouwerijdemolen.nl/" target="_blank"><img src="Bilder und Gifs/demolenbeer.jpg" alt="BeerWorldBerne" id="biershopimgstyle"></a>
-				<div class="carousel-caption">
-				<h3> Brewery De Molen (NL) </h3>
-				<br>
-				<br>
-				<p id="biershoptext">Brewery De Molen is more than just a brewery. There unique location, in an old mill, also hosts a testing room and a restaurant where you can savour dishes made with beer. They have a shop where you can get your holy ale.
-				
-				</p>
-				</div>
-				<div class="carousel-caption" id="carouselimgright">
-				<img src="flag/flagnetherlands.jpg" id="beershopimgright">
-				</div>
-			</div>
-			
-				
-		
-			
-		</div>
+              <div id="owl-demo" class="owl-carousel">
+                
+                <div class="item"><a href="http://biershop.bierbienne.ch/" target="_blank"><img src="Bilder und Gifs/biershopbienne.jpg" alt="BiershopBienne" id="biershopimgstyle"></a></div>
+                <div class="item"><a href="http://craftybeershop.com/" target="_blank"><img src="Bilder und Gifs/craftybeershop.jpg" alt="CraftyBeerShop" id="biershopimgstyle"></a></div>
+                <div class="item"><a href="http://www.brouwerijdemolen.nl/" target="_blank"><img src="Bilder und Gifs/demolenbeer.jpg" alt="BeerWorldBerne" id="biershopimgstyle"></a></div>
+               
 
-		<!-- Controls -->
-		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev" align="left">
-			<span class="glyphicon glyphicon-chevron-left"></span>
-		</a>
-		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"align="center">
-			<span class="glyphicon glyphicon-chevron-right"></span>
-		</a>
-		
-	</div>
+              </div>
+              <div class="customNavigation">
+                <a class="btn prev">Previous</a>
+                <a class="btn next">Next</a>
+                <a class="btn play">Autoplay</a>
+                <a class="btn stop">Stop</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+    </div>
 	<footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>© 2014 TheHolyAle, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-      </footer>
-	
+    </footer>
+	<script src="Carousel/assets/js/jquery-1.9.1.min.js"></script> 
+    <script src="Carousel/owl-carousel/owl.carousel.js"></script>
+	<style>
+    #owl-demo .item{
+        padding: 30px 0px;
+        margin: 0px;
+        color: #FFF;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        text-align: center;
+    }
+    .customNavigation{
+      text-align: center;
+    }
+    .customNavigation a{
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    </style>
+
+
+    <script>
+    $(document).ready(function() {
+
+      var owl = $("#owl-demo");
+
+      owl.owlCarousel({
+
+      items : 1, //10 items above 1000px browser width
+      itemsDesktop : [1000,0], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,0], // 3 items betweem 900px and 601px
+      itemsTablet: [600,1], //2 items between 600 and 0;
+      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+      
+      });
+
+      // Custom Navigation Events
+      $(".next").click(function(){
+        owl.trigger('owl.next');
+      })
+      $(".prev").click(function(){
+        owl.trigger('owl.prev');
+      })
+      $(".play").click(function(){
+        owl.trigger('owl.play',4000);
+      })
+      $(".stop").click(function(){
+        owl.trigger('owl.stop');
+      })
+
+
+    });
+    </script>
+
+
+    <script src="Carousel/assets/js/bootstrap-collapse.js"></script>
+    <script src="Carousel/assets/js/bootstrap-transition.js"></script>
+    <script src="Carousel/assets/js/bootstrap-tab.js"></script>
+
+    <script src="Carousel/assets/js/google-code-prettify/prettify.js"></script>
+    <script src="Carousel/assets/js/application.js"></script>
 </body>
 </html>
