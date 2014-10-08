@@ -190,3 +190,26 @@ height : 300px;
 text-overflow :ellipsis;
 overflow : hidden;
 }
+#owl-demo .item{
+    padding: 30px 0px;
+    margin: 0px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+.customNavigation{
+    text-align: center;
+}
+.customNavigation a{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#myCarousel {
+display : none;
+}
