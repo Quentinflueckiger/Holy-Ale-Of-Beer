@@ -24,7 +24,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-TEMPLATE_DIRS = ('/theholyale/templates/theholyale')
+TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'theholyale/templates/theholyale'))#'/theholyale/templates/theholyale')
 
 
 ALLOWED_HOSTS = []
