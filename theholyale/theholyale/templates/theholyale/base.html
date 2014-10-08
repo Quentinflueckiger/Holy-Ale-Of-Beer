@@ -1,3 +1,4 @@
+{% load staticfiles %}
 <html>
 <head>
 	
@@ -6,8 +7,8 @@
 	<!-- Link javascript,Bootstrap-->
 	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<!-- Custom CSS -->
-	<link rel="stylesheet" type="text/css" href="C:\Documents and Settings\CPVR\Desktop\workspace\Holy-Ale-Of-Beer\css\style.css">
-	<link rel="stylesheet" type="text/css" href="css/beershopstyle.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+<!--	<link rel="stylesheet" type="text/css" href="../css/beershopstyle.css">-->
 	
 	<!-- Bootstrap Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"-->
@@ -31,7 +32,8 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<p><a class="navbar-brand"  class="active" href="index.html">The Holy Ale <img src="Bilder und Gifs/logo_transp.png" alt="Logo" width="46" height="57"></a></p>
+						<a class="navbar-brand"  class="active" href="/">The Holy Ale </a><a class="navbar-brand"  class="active" href="/"><img style="height:35px; width:30px;padding:0px;" src="{% static 'img/logo_transp.png' %}" alt="Logo" width="46" height="57"></a>
+						
 					</div>
 					<div class="navbar-collapse collapse" style="height: 1px;">
 						<ul class="nav navbar-nav">

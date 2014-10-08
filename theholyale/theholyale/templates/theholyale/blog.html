@@ -3,15 +3,11 @@
 {% block navbar %}
 <li><a href="/blog">Blog</a></li>
 <li><a href="/shops">Shops</a></li>
-<li class="active"><a href="/beer">Beers</a></li>
+<li><a href="/beer">Beers</a></li>
 <li><a href="/about">About</a></li>
 {% endblock %}
 
 {% block content %}
 <div class="container">
-<ul>
-	{% for beer in beer_list %}
-	<li><a href="{% url 'detail' beer.id %}" >{{beer.brand.name}} {{beer.name}}</a></li>
-	{% endfor %}
-</ul>
+
 {% endblock %}

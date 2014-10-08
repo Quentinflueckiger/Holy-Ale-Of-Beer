@@ -1,0 +1,192 @@
+element.style {
+}
+.carousel {
+height: 500px;
+margin-bottom: 60px;
+}
+.carousel {
+position: center;
+
+}
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+user agent stylesheetdiv {
+display: block;
+}
+Pseudo ::before element
+:before, :after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+Pseudo ::after element
+:before, :after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+Inherited from body
+body {
+padding-bottom: 40px;
+color: #5a5a5a;
+}
+body {
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+background-color: #fff;
+}
+Inherited from html
+html {
+font-size: 10px;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+font-family: sans-serif;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+
+.navbar-toggle {
+position: relative;
+float: right;
+padding: 9px 10px;
+margin-top: 8px;
+margin-right: 15px;
+margin-bottom: 8px;
+background-color: transparent;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+
+.navbar-inverse {
+background-color: #222;
+border-color: #080808;
+}
+.navbar {
+position: relative;
+min-height: 50px;
+margin-bottom: 20px;
+border: 1px solid transparent;
+}
+.dropdown-menu {
+color: blue;
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 1000;
+display: none;
+float: left;
+min-width: 160px;
+padding: 5px 0;
+margin: 2px 0 0;
+font-size: 14px;
+text-align: left;
+list-style: none;
+background-color: #fff;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+border: 1px solid #ccc;
+border: 1px solid rgba(0,0,0,.15);
+border-radius: 4px;
+-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+
+.pagintation{
+
+align: center;
+}
+#biershopimgstyle {
+	width : 500px;
+	height : 500px;
+	border : 0;
+}
+#smallimgshop {
+ width : 150px;
+ height : 150px;
+ display : block;
+ margin-left : auto;
+ margin-right : auto;
+ }
+
+#beershopimgright {
+	width : 300px;
+	height : 200px;
+	border : 0;
+}
+
+#biershoptext {
+	font-size : 12px;
+	color: black;
+	font-family: "Verdana";
+	text-align: center;
+
+}
+h3 {
+color: 	black;
+font-family: 	"Verdana";
+font-size:	16px;
+text-align: center;
+font-weight : bold;
+}
+
+
+.carousel-control {
+margin-right: 20%;
+margin-left : 20%;
+}
+.carousel-caption {
+right : 0;
+left : 0;
+padding-bottom: -200px;
+}
+#carouselimgright{
+right : 0;
+left : 75%;
+
+}
+#tableportrait {
+border : 2;
+width : 80%;
+margin-left : 10%;
+margin-right : 10%;
+}
+#tablewidth {
+width: 39%;
+height : 20%;
+text-align: center;
+}
+
+/*.beertile
+{
+height: 300px;
+display:inline-block;
+text-overflow: ellipsis; 
+overflow:hidden;
+height: 200px;
+
+
+
+}*/
+
+.beertile{
+height: 500px;
+text-overflow: ellipsis;
+overflow: hidden;
+}
+
+.beertiles img{
+height: 50px;
+}
+.abouttile{
+height : 300px;
+text-overflow :ellipsis;
+overflow : hidden;
+}
