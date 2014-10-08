@@ -1,13 +1,13 @@
 {% extends "base.html" %}
-
 {% block navbar %}
 <li><a href="/blog">Blog</a></li>
 <li><a href="/shops">Shops</a></li>
 <li><a href="/beer">Beers</a></li>
-<li><a href="/about">About</a></li>
+<li class="active"><a href="/about">About</a></li>
 {% endblock %}
 
 {% block content %}
+{% load staticfiles %}
 	<div class="container">
       <div class="row row-offcanvas row-offcanvas-right">
 
@@ -21,7 +21,7 @@
 
             
 			<div class="col-6 col-sm-6 col-lg-4">
-			  <img src="Bilder und Gifs/Davide.jpg" alt="davide" width="180" height="120">
+			  <img src="{% static 'img/Davide.jpg' %}" alt="davide" width="180" height="120">
 			  <div class="abouttile">
 				<h2>Davide Forteguerra</h2>
 				<p id="biershoptext">This not so small Beer Shop is located in Bienne,they have more than 400 hundreds sort of beers and there are brewers too. You can buy some at the shop to enjoy later or go to their bar who is right next door to drink some of the beers they have in the shop.</p>
@@ -29,7 +29,7 @@
 			</div><!--/span-->
 			
             <div class="col-6 col-sm-6 col-lg-4">
-              <img src="Bilder und Gifs/Andy.jpg" alt="andy" width="180" height="120">
+              <img src="{% static 'img/Andy.jpg' %}" alt="andy" width="180" height="120">
 			  <div class="abouttile">
 				<h2>Andy Linder</h2>
 				<p>Crafty Beer Shop carries national and international craft beer, while keeping a focus on the North Carolina beer offerings. They have 8 different beers on tap at all times.</p>
@@ -37,7 +37,7 @@
 			</div><!--/span-->
 			
             <div class="col-6 col-sm-6 col-lg-4">
-              <img src="Bilder und Gifs/Quentin.jpg" alt="quentin" width="180" height="120">
+              <img src="{% static 'img/quentin.jpg' %}" alt="quentin" width="180" height="120">
 			  <div class="abouttile">
 				<h2>Quentin Flueckiger</h2>
 				<p> Brewery De Molen is more than just a brewery. There unique location, in an old mill, also hosts a testing room and a restaurant where you can savour dishes made with beer. They have a shop where you can get your holy ale.</p>
@@ -45,7 +45,7 @@
 			</div><!--/span-->
 			<br>
             <div class="col-6 col-sm-6 col-lg-4">
-			  <img src="Bilder und Gifs/Adrian.jpg" alt="adrian" width="150" height="150">
+			  <img src="{% static 'img/Adrian.jpg' %}" alt="adrian" width="150" height="150">
               <div class="abouttile">
 				<h2>Adrian Aulbach</h2>
 				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
