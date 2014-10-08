@@ -1,0 +1,53 @@
+<html>
+<head>
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<!-- Link javascript,Bootstrap-->
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="C:\Documents and Settings\CPVR\Desktop\workspace\Holy-Ale-Of-Beer\css\style.css">
+	<link rel="stylesheet" type="text/css" href="css/beershopstyle.css">
+	
+	<!-- Bootstrap Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"-->
+
+	<!-- Bootstrap JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	
+	
+	<title>{% block title %}{% endblock %}</title> 
+</head>
+<body>
+<!--		NavBar-->
+	<div class="navbar-wrapper">
+		<div class="container">
+      		<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        		<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<p><a class="navbar-brand"  class="active" href="index.html">The Holy Ale <img src="Bilder und Gifs/logo_transp.png" alt="Logo" width="46" height="57"></a></p>
+					</div>
+					<div class="navbar-collapse collapse" style="height: 1px;">
+						<ul class="nav navbar-nav">
+							{% block navbar %}{% endblock %}
+
+							<!--<li (class="active")><a href="blog.html">Blog</a></li>
+							<li><a href="shops.html">Shops</a></li>
+							<li><a href="beers.html">Beers</a></li>
+							<li><a href="about.html">About</a></li>-->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--	Content-->
+	{% block content %}{% endblock %}
+</body>
+</html>

@@ -28,5 +28,5 @@ def rate(request, beer_id):
 	except(KeyError):
 		return render(request, 'beer/detail', {'beer':beer})
 	else:
-		Rating.objects.create(beer=Beer.objects.get(pk=beer_id), rating=int(r), comment=c)
+		Rating.objects.create(beer=Beer.objects.get(pk=beer_id), rating=r, comment=c)
 		return HttpResponse("You're rating the beer with  %s stars" %  r)
