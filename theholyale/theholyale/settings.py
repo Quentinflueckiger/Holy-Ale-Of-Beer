@@ -24,7 +24,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'theholyale/templates/theholyale'))#'/theholyale/templates/theholyale')
+TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'theholyale/templates/theholyale'))
 
 
 ALLOWED_HOSTS = []
@@ -88,4 +88,6 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
+	os.path.join(BASE_DIR, "static/css"),
+	os.path.join(BASE_DIR, "static/img")
 )
