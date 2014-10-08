@@ -24,7 +24,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-TEMPLATE_DIRS = ('theholyale/templates/theholyale')
+TEMPLATE_DIRS = ('/theholyale/templates/theholyale')
 
 
 ALLOWED_HOSTS = []
