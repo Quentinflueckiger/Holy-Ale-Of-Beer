@@ -8,107 +8,54 @@
 {% endblock %}
 
 {% block content %}
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" align="center">
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-		</ol>
+	<div class="container">
+      <div class="row row-offcanvas row-offcanvas-right">
 
-		<!-- Wrapper for slides -->
-		<div class="carousel-inner">
-			<div class="item active">
-				<!-- Bier Shop Bienne-->
-				<a href="http://biershop.bierbienne.ch/" target="_blank"><img src="Bilder und Gifs/biershopbienne.jpg" alt="BiershopBienne" id="biershopimgstyle"></a>
-				<div class="carousel-caption">
-				</div>
-			</div>
-			<div class="item">
-				<!-- Crafty Bier Shop -->
-				<a href="http://craftybeershop.com/" target="_blank"><img src="Bilder und Gifs/craftybeershop.jpg" alt="CraftyBeerShop" id="biershopimgstyle"></a>
-				<div class="carousel-caption">
-				</div>
-			</div>
-			<div class="item">
-				<!-- Crafty Bier Shop -->
-				<a href="http://www.brouwerijdemolen.nl/" target="_blank"><img src="Bilder und Gifs/demolenbeer.jpg" alt="BeerWorldBerne" id="biershopimgstyle"></a>
-				<div class="carousel-caption">
-				</div>
-			</div>
-			<div class="item">
-				<!-- Crafty Bier Shop -->
-				<a href="http://thebeershop.us/" target="_blank"><img src="Bilder und Gifs/beershopusa.jpg" alt="CraftyBeerShop" id="biershopimgstyle"></a>
-				<div class="carousel-caption">
-				</div>
-			</div>
+        <div class="col-xs-12 col-sm-9">
+          <div class="jumbotron">
+			<h2> The Beer Masters </h2>
+            <p id="lead">Those are the drunken creators of this website!</p>
+            
+          </div>
+          <div class="row">
+
+            
+			<div class="col-6 col-sm-6 col-lg-4">
+			  <img src="Bilder und Gifs/Davide.jpg" alt="davide" width="180" height="120">
+			  <div class="abouttile">
+				<h2>Davide Forteguerra</h2>
+				<p id="biershoptext">This not so small Beer Shop is located in Bienne,they have more than 400 hundreds sort of beers and there are brewers too. You can buy some at the shop to enjoy later or go to their bar who is right next door to drink some of the beers they have in the shop.</p>
+              </div>
+			</div><!--/span-->
 			
-		</div>
-
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev" align="left">
-			<span class="glyphicon glyphicon-chevron-left"></span>
-		</a>
-		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"align="center">
-			<span class="glyphicon glyphicon-chevron-right"></span>
-		</a>
-    </div>
-	
-	<div class="container marketing">
-	
-	<h1 align="center">Blog</h1>
-
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=">
-        </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-	  
-	  <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=">
-        </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-      </div>
-
+            <div class="col-6 col-sm-6 col-lg-4">
+              <img src="Bilder und Gifs/Andy.jpg" alt="andy" width="180" height="120">
+			  <div class="abouttile">
+				<h2>Andy Linder</h2>
+				<p>Crafty Beer Shop carries national and international craft beer, while keeping a focus on the North Carolina beer offerings. They have 8 different beers on tap at all times.</p>
+			  </div>
+			</div><!--/span-->
+			
+            <div class="col-6 col-sm-6 col-lg-4">
+              <img src="Bilder und Gifs/Quentin.jpg" alt="quentin" width="180" height="120">
+			  <div class="abouttile">
+				<h2>Quentin Flueckiger</h2>
+				<p> Brewery De Molen is more than just a brewery. There unique location, in an old mill, also hosts a testing room and a restaurant where you can savour dishes made with beer. They have a shop where you can get your holy ale.</p>
+              </div>
+			</div><!--/span-->
+			<br>
+            <div class="col-6 col-sm-6 col-lg-4">
+			  <img src="Bilder und Gifs/Adrian.jpg" alt="adrian" width="150" height="150">
+              <div class="abouttile">
+				<h2>Adrian Aulbach</h2>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              </div>
+			</div><!--/span-->
+			
+            
+			
+          </div><!--/row-->
+        </div><!--/span-->
+      </div><!--/row-->
 
 {% endblock %}
