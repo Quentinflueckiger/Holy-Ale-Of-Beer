@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% block title %}The Holy Ale{% endblock %}
+
 {% block navbar %}
 <li><a href="/blog">Blog</a></li>
 <li><a href="/shops">Shops</a></li>
@@ -9,9 +11,19 @@
 
 {% block content %}
 <div class="container">
-<ul>
-	{% for beer in beer_list %}
-	<li><a href="{% url 'detail' beer.id %}" >{{beer.brand.name}} {{beer.name}}</a></li>
-	{% endfor %}
-</ul>
+	<div class="jumbotron">
+		<p id="lead">Here you will find a list of all the beers that were tasted all around the world and deemed worthy of mentioning in the Great Halls of Beerhalla!</p>
+	</div>	
+	<div class="row beertiles">
+		{% for beer in beer_list %}
+		<div class="col-6 col-sm-6 col-lg-4">
+			<img class="img" src="{{beer.picture}}" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+			<div class= "beertile">	
+				<h2>{{beer}}</h2>
+				<p>{{beer.description}}</p>
+			</div>
+			<p><a class="btn btn-default" href="{% url 'detail' beer.id %}" role="button">View details »</a></p>
+		</div><!-- /.col-lg-4 -->
+		{% endfor %}
+	</div>
 {% endblock %}
