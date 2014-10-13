@@ -41,7 +41,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 	'polls',
 	'beer',
-#	'south',
+	'south',
+	'PIL',
 )
 
 MIDDLEWARE_CLASSES = (
