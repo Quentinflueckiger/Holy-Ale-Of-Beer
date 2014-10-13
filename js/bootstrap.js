@@ -2110,5 +2110,35 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
       Plugin.call($spy, data)
     })
   })
+$(document).ready(function() {
 
+      var owl = $("#owl-demo");
+
+      owl.owlCarousel({
+
+      items : 1, //10 items above 1000px browser width
+      itemsDesktop : [1000,0], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,0], // 3 items betweem 900px and 601px
+      itemsTablet: [600,1], //2 items between 600 and 0;
+      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+      
+      });
+
+      // Custom Navigation Events
+      $(".next").click(function(){
+        owl.trigger('owl.next');
+      })
+      $(".prev").click(function(){
+        owl.trigger('owl.prev');
+      })
+      $(".play").click(function(){
+        owl.trigger('owl.play',2000);
+      })
+      $(".stop").click(function(){
+        owl.trigger('owl.stop');
+      })
+
+
+    });
 }(jQuery);
+
