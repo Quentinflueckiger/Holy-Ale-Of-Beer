@@ -42,7 +42,7 @@ INSTALLED_APPS = (
 	'polls',
 	'beer',
 	'south',
-	'PIL',
+#	'PIL',
 )
 
 MIDDLEWARE_CLASSES = (
