@@ -2,7 +2,7 @@
 
 {% block navbar %}
 <li><a href="/blog">Blog</a></li>
-<li><a href="/shops">Shops</a></li>
+<li  class="active"><a href="/shops">Shops</a></li>
 <li><a href="/beer">Beers</a></li>
 <li><a href="/about">About</a></li>
 {% endblock %}
@@ -90,12 +90,11 @@
 
               <div id="owl-demo" class="owl-carousel">
                 
-                <div class="item"><a href="http://biershop.bierbienne.ch/" target="_blank"><img src="Bilder und Gifs/biershopbienne.jpg" alt="BiershopBienne" id="biershopimgstyle"></a><h3>Bier Shop Bienne</h3></div>
+               <div class="item"><a href="http://biershop.bierbienne.ch/" target="_blank"><img src="Bilder und Gifs/biershopbienne.jpg" alt="BiershopBienne" id="biershopimgstyle"></a><h3>Bier Shop Bienne</h3></div>
                 <div class="item"><a href="http://craftybeershop.com/" target="_blank"><img src="Bilder und Gifs/craftybeershop.jpg" alt="CraftyBeerShop" id="biershopimgstyle"></a><h3>Crafty Beer Shop</h3></div>
                 <div class="item"><a href="http://www.brouwerijdemolen.nl/" target="_blank"><img src="Bilder und Gifs/demolenbeer.jpg" alt="DeMolenBeer" id="biershopimgstyle"></a><h3>Brewery De Molen</h3></div>
 				<div class="item"><a href="http://beershopstalbans.com/" target="_blank"><img src="Bilder und Gifs/st alban.jpg" alt="StAblans" id="biershopimgstyle"></a><h3>St Albans Beer Shop</h3></div>
                 <div class="item"><a href="http://www.berlinbiershop.com/" target="_blank"><img src="Bilder und Gifs/berlinbeershop.jpg" alt="Berlinbiershop" id="biershopimgstyle"></a><h3>Berlin Bier Shop</h3></div>
-               
               
 			  </div>
 
@@ -112,32 +111,24 @@
     <script src="Carousel/owl-carousel/owl.carousel.js"></script>
 
     <script>
-	   $(document).ready(function() {
- 
-		//Sort random function
-		function random(owlSelector){
-			
-			owlSelector.children().sort(function(){
-			return Math.round(Math.random()) - 0.5;
-			}).each(function(){
-			$(this).appendTo(owlSelector);
-			});
-			
-		}
- 
-		$("#owl-demo").owlCarousel({
-			navigation: false,
-			beforeInit : function(elem){
-				//Parameter elem pointing to $("#owl-demo")
-				random(elem);
-			}
-			
-		});
-		autoplay : 3000;
-	});
+	$(document).ready(function() {
+
+      var owl = $("#owl-demo");
 	
-    
-    </script>
+
+    	$("#owl-demo").owlCarousel({
+        autoPlay : 3000,
+        navigation:false,
+        paginationSpeed : 1000,
+        goToFirstSpeed : 2000,
+        singleItem : true,
+        autoHeight : true,
+        transitionStyle:"fade"
+      });
+
+
+    });
+	</script>
 
 
     <script src="Carousel/assets/js/bootstrap-collapse.js"></script>
