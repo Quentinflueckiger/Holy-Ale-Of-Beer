@@ -14,7 +14,7 @@ class Beer(models.Model):
 	description = models.CharField(max_length=200, blank=True)
 	url = models.URLField(max_length=200, blank=True)
 	brand = models.ForeignKey(Brand)
-	picture =  models.ImageField(upload_to="beer", blank=True)
+#	picture =  models.ImageField(upload_to="beer", blank=True)
 	def __unicode__(self):
 		return self.brand.name  +" "+  self.name
 	
