@@ -2,7 +2,7 @@
 
 {% block navbar %}
 <li><a href="/blog">Blog</a></li>
-<li><a href="/shops">Shops</a></li>
+<li  class="active"><a href="/shops">Shops</a></li>
 <li><a href="/beer">Beers</a></li>
 <li><a href="/about">About</a></li>
 {% endblock %}
@@ -22,7 +22,7 @@
 
             
 			<div class="col-6 col-sm-6 col-lg-4">
-			  <img src="Bilder und Gifs/biershopbienne.jpg" alt="BiershopBienne" id="smallimgshop">
+			  <img src="{% static 'img/biershopbienne.jpg' %}" alt="BiershopBienne" id="smallimgshop">
               <div class="beertile">
 				<h2>Bier Shop Bienne (CH)</h2>
 				<p>This not so small Beer Shop is located in Bienne,they have more than 400 hundreds sort of beers and there are brewers too. You can buy some at the shop to enjoy later or go to their bar who is right next door to drink some of the beers they have in the shop.</p>
@@ -31,7 +31,7 @@
 			</div><!--/span-->
 			
             <div class="col-6 col-sm-6 col-lg-4">
-              <img src="Bilder und Gifs/craftybeershop.jpg" alt="CraftyBeerShop" id="smallimgshop">
+              <img src="{% static 'img/craftybeershop.jpg' %}" alt="CraftyBeerShop" id="smallimgshop">
 			  <div class="beertile">
 				<h2>Crafty Beer Shop (USA)</h2>
 				<p>Crafty Beer Shop carries national and international craft beer, while keeping a focus on the North Carolina beer offerings. They have 8 different beers on tap at all times.</p>
@@ -40,7 +40,7 @@
 			</div><!--/span-->
 			
             <div class="col-6 col-sm-6 col-lg-4">
-              <img src="Bilder und Gifs/demolenbeer.jpg" alt="DeMolen" id="smallimgshop">
+              <img src="{% static 'img/demolenbeer.jpg' %}" alt="DeMolen" id="smallimgshop">
 			  <div class="beertile">
 				<h2>Brewery De Molen (NL)</h2>
 				<p> Brewery De Molen is more than just a brewery. There unique location, in an old mill, also hosts a testing room and a restaurant where you can savour dishes made with beer. They have a shop where you can get your holy ale.</p>
@@ -49,7 +49,7 @@
 			</div><!--/span-->
 			<br>
             <div class="col-6 col-sm-6 col-lg-4">
-			  <img src="Bilder und Gifs/bernbeershop_1.jpg" alt="Beerworld" id="smallimgshop">
+			  <img src="{% static 'img/bernbeershop_1.jpg' %}" alt="Beerworld" id="smallimgshop">
 			  <div class="beertile">
 				<h2>BeerWorld Bern (CH)</h2>
 				<p>This store is right in the train station from Bern. It's part of the chain store Drinks of The World, they have beer from all around the world, wine, liquor. There is seven other shop from this chain in Switzerland.</p>
@@ -58,7 +58,7 @@
 			</div><!--/span-->
 			
             <div class="col-6 col-sm-6 col-lg-4">
-			  <img src="Bilder und Gifs/st alban.jpg" alt="StAlbans" id="smallimgshop">
+			  <img src="{% static 'img/st alban.jpg' %}" alt="StAlbans" id="smallimgshop">
               <div class="beertile">
 				<h2>St Albans Beer Shop (GB)</h2>
 				<p> Based in St.Albans, this shop showcases around 500 specialist craft, traditional and foreign bottled beers and a selection of cask beer for people to try on the premises or take away. </p>
@@ -67,7 +67,7 @@
 			</div><!--/span-->
 			
             <div class="col-6 col-sm-6 col-lg-4">
-              <img src="Bilder und Gifs/berlinbeershop.jpg" alt="Berlinbiershop" id="smallimgshop">
+              <img src="{% static 'img/berlinbeershop.jpg' %}" alt="Berlinbiershop" id="smallimgshop">
 			  <div class="beertile">
 				<h2>Berlin Bier Shop (DE)</h2>
 				<p>Rainer Wallisser, the owner, came from Wine to Sake and now Craft Beer. You will find a large amount of choice and good advice.</p>
@@ -90,12 +90,11 @@
 
               <div id="owl-demo" class="owl-carousel">
                 
-                <div class="item"><a href="http://biershop.bierbienne.ch/" target="_blank"><img src="Bilder und Gifs/biershopbienne.jpg" alt="BiershopBienne" id="biershopimgstyle"></a><h3>Bier Shop Bienne</h3></div>
-                <div class="item"><a href="http://craftybeershop.com/" target="_blank"><img src="Bilder und Gifs/craftybeershop.jpg" alt="CraftyBeerShop" id="biershopimgstyle"></a><h3>Crafty Beer Shop</h3></div>
-                <div class="item"><a href="http://www.brouwerijdemolen.nl/" target="_blank"><img src="Bilder und Gifs/demolenbeer.jpg" alt="DeMolenBeer" id="biershopimgstyle"></a><h3>Brewery De Molen</h3></div>
-				<div class="item"><a href="http://beershopstalbans.com/" target="_blank"><img src="Bilder und Gifs/st alban.jpg" alt="StAblans" id="biershopimgstyle"></a><h3>St Albans Beer Shop</h3></div>
-                <div class="item"><a href="http://www.berlinbiershop.com/" target="_blank"><img src="Bilder und Gifs/berlinbeershop.jpg" alt="Berlinbiershop" id="biershopimgstyle"></a><h3>Berlin Bier Shop</h3></div>
-               
+               <div class="item"><a href="http://biershop.bierbienne.ch/" target="_blank"><img src="{% static 'img/biershopbienne.jpg' %}" alt="BiershopBienne" id="biershopimgstyle"></a><h3>Bier Shop Bienne</h3></div>
+                <div class="item"><a href="http://craftybeershop.com/" target="_blank"><img src="{% static 'img/craftybeershop.jpg' %}" alt="CraftyBeerShop" id="biershopimgstyle"></a><h3>Crafty Beer Shop</h3></div>
+                <div class="item"><a href="http://www.brouwerijdemolen.nl/" target="_blank"><img src="{% static 'img/demolenbeer.jpg' %}" alt="DeMolenBeer" id="biershopimgstyle"></a><h3>Brewery De Molen</h3></div>
+				<div class="item"><a href="http://beershopstalbans.com/" target="_blank"><img src="{% static 'img/st alban.jpg' %}" alt="StAblans" id="biershopimgstyle"></a><h3>St Albans Beer Shop</h3></div>
+                <div class="item"><a href="http://www.berlinbiershop.com/" target="_blank"><img src="{% static 'img/berlinbeershop.jpg' %}" alt="Berlinbiershop" id="biershopimgstyle"></a><h3>Berlin Bier Shop</h3></div>
               
 			  </div>
 
@@ -112,32 +111,24 @@
     <script src="Carousel/owl-carousel/owl.carousel.js"></script>
 
     <script>
-	   $(document).ready(function() {
- 
-		//Sort random function
-		function random(owlSelector){
-			
-			owlSelector.children().sort(function(){
-			return Math.round(Math.random()) - 0.5;
-			}).each(function(){
-			$(this).appendTo(owlSelector);
-			});
-			
-		}
- 
-		$("#owl-demo").owlCarousel({
-			navigation: false,
-			beforeInit : function(elem){
-				//Parameter elem pointing to $("#owl-demo")
-				random(elem);
-			}
-			
-		});
-		autoplay : 3000;
-	});
+	$(document).ready(function() {
+
+      var owl = $("#owl-demo");
 	
-    
-    </script>
+
+    	$("#owl-demo").owlCarousel({
+        autoPlay : 3000,
+        navigation:false,
+        paginationSpeed : 1000,
+        goToFirstSpeed : 2000,
+        singleItem : true,
+        autoHeight : true,
+        transitionStyle:"fade"
+      });
+
+
+    });
+	</script>
 
 
     <script src="Carousel/assets/js/bootstrap-collapse.js"></script>
